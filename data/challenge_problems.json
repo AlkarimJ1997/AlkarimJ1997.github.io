@@ -869,5 +869,16 @@
         "ruby": "=end",
         "swift": "*/",
         "php": "*/"
+    },
+    "readOnly": {
+        "javascript": 3,
+        "python": 3,
+        "java": 6,
+        "c": 6,
+        "cpp": 6,
+        "csharp": 6,
+        "ruby": 3,
+        "swift": 3,
+        "php": 4
     }
 }
