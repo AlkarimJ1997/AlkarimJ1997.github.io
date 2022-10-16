@@ -6,7 +6,6 @@
             "difficulty": "Easy",
             "languages": ["javascript", "python", "java", "c", "cpp", "csharp", "ruby", "swift", "php"],
             "problem_statement": [
-                "/*",
                 "Problem:",
                 "",
                 "Create a function that takes two numbers as arguments and returns their sum.",
@@ -15,9 +14,7 @@
                 "",
                 "addition(3, 2) ➞ 5",
                 "addition(-3, -6) ➞ -9",
-                "addition(7, 3) ➞ 10",
-                "*/",
-                ""
+                "addition(7, 3) ➞ 10"
             ],
             "body": {
                 "javascript": [
@@ -130,7 +127,6 @@
             "difficulty": "Easy",
             "languages": ["javascript", "python", "java", "c", "cpp", "csharp", "ruby", "swift", "php"],
             "problem_statement": [
-                "/*",
                 "Problem:",
                 "",
                 "Create a function that takes a string as its argument and returns the string in reversed order.",
@@ -139,9 +135,7 @@
                 "",
                 "reverse(\"Hello World\") ➞ \"dlroW olleH\"",
                 "reverse(\"The quick brown fox.\") ➞ \".xof nworb kciuq ehT\"",
-                "reverse(\"Edabit is really helpful!\") ➞ \"!lufpleh yllaer si tibadE\"",
-                "*/",
-                ""
+                "reverse(\"Edabit is really helpful!\") ➞ \"!lufpleh yllaer si tibadE\""
             ],
             "body": {
                 "javascript": [
@@ -254,7 +248,6 @@
             "difficulty": "Easy",
             "languages": ["javascript", "python", "java", "c", "cpp", "csharp", "ruby", "swift", "php"],
             "problem_statement": [
-                "/*",
                 "Problem:",
                 "",
                 "Create a function that returns true if an integer is evenly divisible by 5, and false otherwise.",
@@ -263,9 +256,7 @@
                 "",
                 "divisibleByFive(5) ➞ true",
                 "divisibleByFive(-55) ➞ true",
-                "divisibleByFive(37) ➞ false",
-                "*/",
-                ""
+                "divisibleByFive(37) ➞ false"
             ],
             "body": {
                 "javascript": [
@@ -378,7 +369,6 @@
             "difficulty": "Easy",
             "languages": ["javascript", "python", "java", "c", "cpp", "csharp", "ruby", "swift", "php"],
             "problem_statement": [
-                "/*",
                 "Problem:",
                 "",
                 "Create a function that takes a number as an argument, increments the number by +1 and returns the result.",
@@ -387,9 +377,7 @@
                 "",
                 "nextNumber(0) ➞ 1",
                 "nextNumber(9) ➞ 10",
-                "nextNumber(-3) ➞ -2",
-                "*/",
-                ""
+                "nextNumber(-3) ➞ -2"
             ],
             "body": {
                 "javascript": [
@@ -502,7 +490,6 @@
             "difficulty": "Easy",
             "languages": ["javascript", "python", "java", "c", "cpp", "csharp", "ruby", "swift", "php"],
             "problem_statement": [
-                "/*",
                 "Problem:",
                 "",
                 "Write a function that takes an integer minutes and converts it to seconds.",
@@ -511,9 +498,7 @@
                 "",
                 "convert(5) ➞ 300",
                 "convert(3) ➞ 180",
-                "convert(2) ➞ 120",
-                "*/",
-                ""
+                "convert(2) ➞ 120"
             ],
             "body": {
                 "javascript": [
@@ -626,7 +611,6 @@
             "difficulty": "Easy",
             "languages": ["javascript", "python", "java", "c", "cpp", "csharp", "ruby", "swift", "php"],
             "problem_statement": [
-                "/*",
                 "Problem:",
                 "",
                 "Create a function that takes length and width and finds the perimeter of a rectangle.",
@@ -635,9 +619,7 @@
                 "",
                 "findPerimeter(6, 7) ➞ 26",
                 "findPerimeter(20, 10) ➞ 60",
-                "findPerimeter(2, 9) ➞ 22",
-                "*/",
-                ""
+                "findPerimeter(2, 9) ➞ 22"
             ],
             "body": {
                 "javascript": [
@@ -750,7 +732,6 @@
             "difficulty": "Easy",
             "languages": ["javascript", "python", "java", "c", "cpp", "csharp", "ruby", "swift", "php"],
             "problem_statement": [
-                "/*",
                 "Problem:",
                 "",
                 "Create a function that takes two numbers as arguments and return true if the sum of the numbers is less than 100. Otherwise return false.",
@@ -759,9 +740,7 @@
                 "",
                 "lessThan100(22, 15) ➞ true",
                 "lessThan100(83, 34) ➞ false",
-                "lessThan100(3, 77) ➞ true",
-                "*/",
-                ""
+                "lessThan100(3, 77) ➞ true"
             ],
             "body": {
                 "javascript": [
@@ -868,5 +847,27 @@
             },
             "answer": ["true", "false", "true"]
         }
-    ]
+    ],
+    "start_comment": {
+        "javascript": "/*",
+        "python": "'''",
+        "java": "/*",
+        "c": "/*",
+        "cpp": "/*",
+        "csharp": "/*",
+        "ruby": "=begin",
+        "swift": "/*",
+        "php": "/*"
+    },
+    "end_comment": {
+        "javascript": "*/",
+        "python": "'''",
+        "java": "*/",
+        "c": "*/",
+        "cpp": "*/",
+        "csharp": "*/",
+        "ruby": "=end",
+        "swift": "*/",
+        "php": "*/"
+    }
 }
