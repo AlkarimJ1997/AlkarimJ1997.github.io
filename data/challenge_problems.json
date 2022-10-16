@@ -149,8 +149,10 @@
             "title": "Less Than 100?",
             "difficulty": "Easy",
             "body": [
-                "/**",
-                "* Problem: Create a function that takes two numbers as arguments and return true if the sum of the numbers is less than 100. Otherwise return false.",
+                "/*",
+                "Problem:",
+                "",
+                "Create a function that takes two numbers as arguments and return true if the sum of the numbers is less than 100. Otherwise return false.",
                 "*/",
                 "",
                 "// Examples:",
