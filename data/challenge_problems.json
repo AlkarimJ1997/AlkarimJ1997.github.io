@@ -30,8 +30,7 @@
             "difficulty": "Easy",
             "body": [
                 "/**",
-                "* Problem: Create a function that takes a string as its argument and returns the string",
-                "           in reversed order.",
+                "* Problem: Create a function that takes a string as its argument and returns the string in reversed order.",
                 "*/",
                 "",
                 "// Examples:",
@@ -55,8 +54,7 @@
             "difficulty": "Easy",
             "body": [
                 "/**",
-                "* Problem: Create a function that returns true if an integer is evenly divisible by 5,",
-                "           and false otherwise.",
+                "* Problem: Create a function that returns true if an integer is evenly divisible by 5, and false otherwise.",
                 "*/",
                 "",
                 "// Examples:",
@@ -80,8 +78,7 @@
             "difficulty": "Easy",
             "body": [
                 "/**",
-                "* Problem: Create a function that takes a number as an argument, increments the number by +1",
-                "           and returns the result.",
+                "* Problem: Create a function that takes a number as an argument, increments the number by +1 and returns the result.",
                 "*/",
                 "",
                 "// Examples:",
@@ -105,8 +102,7 @@
             "difficulty": "Easy",
             "body": [
                 "/**",
-                "* Problem: Create a function that takes an integer as an argument and returns the amount of seconds",
-                "           that have passed.",
+                "* Problem: Create a function that takes an integer as an argument and returns the amount of seconds that have passed.",
                 "*/",
                 "",
                 "// Examples:",
@@ -154,8 +150,7 @@
             "difficulty": "Easy",
             "body": [
                 "/**",
-                "* Problem: Create a function that takes two numbers as arguments and return true if the sum of the numbers",
-                "           is less than 100. Otherwise return false.",
+                "* Problem: Create a function that takes two numbers as arguments and return true if the sum of the numbers is less than 100. Otherwise return false.",
                 "*/",
                 "",
                 "// Examples:",
