@@ -4,7 +4,8 @@
             "id": 1,
             "title": "Add Two Numbers",
             "difficulty": "Easy",
-            "body": [
+            "languages": ["javascript", "python", "java", "c", "cpp", "csharp", "ruby", "swift", "php"],
+            "problem_statement": [
                 "/*",
                 "Problem:",
                 "",
@@ -16,22 +17,119 @@
                 "addition(-3, -6) ➞ -9",
                 "addition(7, 3) ➞ 10",
                 "*/",
-                "",
-                "const addition = (a, b) => {",
-                "    // Your code here",
-                "}",
-                "",
-                "console.log(addition(3, 2));",
-                "console.log(addition(-3, -6));",
-                "console.log(addition(7, 3));"
+                ""
             ],
+            "body": {
+                "javascript": [
+                    "const addition = (a, b) => {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "console.log(addition(3, 2));",
+                    "console.log(addition(-3, -6));",
+                    "console.log(addition(7, 3));"
+                ],
+                "python": [
+                    "def addition(a, b):",
+                    "    # Your code here",
+                    "    pass",
+                    "",
+                    "print(addition(3, 2))",
+                    "print(addition(-3, -6))",
+                    "print(addition(7, 3))"
+                ],
+                "java": [
+                    "public class Main {",
+                    "    public static int addition(int a, int b) {",
+                    "        // Your code here",
+                    "    }",
+                    "",
+                    "    public static void main(String[] args) {",
+                    "        System.out.println(addition(3, 2));",
+                    "        System.out.println(addition(-3, -6));",
+                    "        System.out.println(addition(7, 3));",
+                    "    }",
+                    "}"
+                ],
+                "c": [
+                    "#include <stdio.h>",
+                    "",
+                    "int addition(int a, int b) {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "int main() {",
+                    "    printf(\"%d\\n\", addition(3, 2));",
+                    "    printf(\"%d\\n\", addition(-3, -6));",
+                    "    printf(\"%d\\n\", addition(7, 3));",
+                    "    return 0;",
+                    "}"
+                ],
+                "cpp": [
+                    "#include <iostream>",
+                    "",
+                    "int addition(int a, int b) {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "int main() {",
+                    "    std::cout << addition(3, 2) << std::endl;",
+                    "    std::cout << addition(-3, -6) << std::endl;",
+                    "    std::cout << addition(7, 3) << std::endl;",
+                    "    return 0;",
+                    "}"
+                ],
+                "csharp": [
+                    "public class Addition {",
+                    "    public static int addition(int a, int b) {",
+                    "        // Your code here",
+                    "    }",
+                    "",
+                    "    public static void Main(string[] args) {",
+                    "        System.Console.WriteLine(addition(3, 2));",
+                    "        System.Console.WriteLine(addition(-3, -6));",
+                    "        System.Console.WriteLine(addition(7, 3));",
+                    "    }",
+                    "}"
+                ],
+                "ruby": [
+                    "def addition(a, b)",
+                    "    # Your code here",
+                    "end",
+                    "",
+                    "puts addition(3, 2)",
+                    "puts addition(-3, -6)",
+                    "puts addition(7, 3)"
+                ],
+                "swift": [
+                    "func addition(_ a: Int, _ b: Int) -> Int {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "print(addition(3, 2))",
+                    "print(addition(-3, -6))",
+                    "print(addition(7, 3))"
+                ],
+                "php": [
+                    "<?php",
+                    "function addition($a, $b) {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "echo addition(3, 2);",
+                    "echo addition(-3, -6);",
+                    "echo addition(7, 3);",
+                    "?>"
+                ]
+            },
             "answer": ["5", "-9", "10"]
         },
         {
             "id": 2,
             "title": "Reverse a String",
             "difficulty": "Easy",
-            "body": [
+            "languages": ["javascript", "python", "java", "c", "cpp", "csharp", "ruby", "swift", "php"],
+            "problem_statement": [
                 "/*",
                 "Problem:",
                 "",
@@ -39,26 +137,123 @@
                 "",
                 "Examples:",
                 "",
-                "reverse('hello') ➞ 'olleh'",
-                "reverse('The quick brown fox.') ➞ '.xof nworb kciuq ehT'",
-                "reverse('Edabit is really helpful!') ➞ '!lufpleh yllaer si tibadE'",
+                "reverse(\"Hello World\") ➞ \"dlroW olleH\"",
+                "reverse(\"The quick brown fox.\") ➞ \".xof nworb kciuq ehT\"",
+                "reverse(\"Edabit is really helpful!\") ➞ \"!lufpleh yllaer si tibadE\"",
                 "*/",
-                "",
-                "const reverse = (str) => {",
-                "    // Your code here",
-                "}",
-                "",
-                "console.log(reverse('hello'));",
-                "console.log(reverse('The quick brown fox.'));",
-                "console.log(reverse('Edabit is really helpful!'));"
+                ""
             ],
+            "body": {
+                "javascript": [
+                    "const reverse = (str) => {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "console.log(reverse(\"Hello World\"));",
+                    "console.log(reverse(\"The quick brown fox.\"));",
+                    "console.log(reverse(\"Edabit is really helpful!\"));"
+                ],
+                "python": [
+                    "def reverse(str):",
+                    "    # Your code here",
+                    "    pass",
+                    "",
+                    "print(reverse(\"Hello World\"))",
+                    "print(reverse(\"The quick brown fox.\"))",
+                    "print(reverse(\"Edabit is really helpful!\"))"
+                ],
+                "java": [
+                    "public class Main {",
+                    "    public static String reverse(String str) {",
+                    "        // Your code here",
+                    "    }",
+                    "",
+                    "    public static void main(String[] args) {",
+                    "        System.out.println(reverse(\"Hello World\"));",
+                    "        System.out.println(reverse(\"The quick brown fox.\"));",
+                    "        System.out.println(reverse(\"Edabit is really helpful!\"));",
+                    "    }",
+                    "}"
+                ],
+                "c": [
+                    "#include <stdio.h>",
+                    "",
+                    "char* reverse(char* str) {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "int main() {",
+                    "    printf(\"%s\\n\", reverse(\"Hello World\"));",
+                    "    printf(\"%s\\n\", reverse(\"The quick brown fox.\"));",
+                    "    printf(\"%s\\n\", reverse(\"Edabit is really helpful!\"));",
+                    "    return 0;",
+                    "}"
+                ],
+                "cpp": [
+                    "#include <iostream>",
+                    "",
+                    "std::string reverse(std::string str) {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "int main() {",
+                    "    std::cout << reverse(\"Hello World\") << std::endl;",
+                    "    std::cout << reverse(\"The quick brown fox.\") << std::endl;",
+                    "    std::cout << reverse(\"Edabit is really helpful!\") << std::endl;",
+                    "    return 0;",
+                    "}"
+                ],
+                "csharp": [
+                    "public class Reverse {",
+                    "    public static string reverse(string str) {",
+                    "        // Your code here",
+                    "    }",
+                    "",
+                    "    public static void Main(string[] args) {",
+                    "        System.Console.WriteLine(reverse(\"Hello World\"));",
+                    "        System.Console.WriteLine(reverse(\"The quick brown fox.\"));",
+                    "        System.Console.WriteLine(reverse(\"Edabit is really helpful!\"));",
+                    "    }",
+                    "}"
+                ],
+                "ruby": [
+                    "def reverse(str)",
+                    "    # Your code here",
+                    "end",
+                    "",
+                    "puts reverse(\"Hello World\")",
+                    "puts reverse(\"The quick brown fox.\")",
+                    "puts reverse(\"Edabit is really helpful!\")"
+                ],
+                "swift": [
+                    "func reverse(_ str: String) -> String {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "print(reverse(\"Hello World\"))",
+                    "print(reverse(\"The quick brown fox.\"))",
+                    "print(reverse(\"Edabit is really helpful!\"))"
+                ],
+                "php": [
+                    "<?php",
+                    "function reverse($str) {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "echo reverse(\"Hello World\");",
+                    "echo reverse(\"The quick brown fox.\");",
+                    "echo reverse(\"Edabit is really helpful!\");",
+                    "?>"
+                ]
+            },
             "answer": ["olleh", ".xof nworb kciuq ehT", "!lufpleh yllaer si tibadE"]
         },
         {
             "id": 3,
             "title": "Check if an Integer is Divisible By Five",
             "difficulty": "Easy",
-            "body": [
+            "languages": ["javascript", "python", "java", "c", "cpp", "csharp", "ruby", "swift", "php"],
+            "problem_statement": [
                 "/*",
                 "Problem:",
                 "",
@@ -70,22 +265,119 @@
                 "divisibleByFive(-55) ➞ true",
                 "divisibleByFive(37) ➞ false",
                 "*/",
-                "",
-                "const divisibleByFive = (n) => {",
-                "    // Your code here",
-                "}",
-                "",
-                "console.log(divisibleByFive(5));",
-                "console.log(divisibleByFive(-55));",
-                "console.log(divisibleByFive(37));"
+                ""
             ],
+            "body": {
+                "javascript": [
+                    "const divisibleByFive = (n) => {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "console.log(divisibleByFive(5));",
+                    "console.log(divisibleByFive(-55));",
+                    "console.log(divisibleByFive(37));"
+                ],
+                "python": [
+                    "def divisibleByFive(n):",
+                    "    # Your code here",
+                    "    pass",
+                    "",
+                    "print(divisibleByFive(5))",
+                    "print(divisibleByFive(-55))",
+                    "print(divisibleByFive(37))"
+                ],
+                "java": [
+                    "public class Main {",
+                    "    public static boolean divisibleByFive(int n) {",
+                    "        // Your code here",
+                    "    }",
+                    "",
+                    "    public static void main(String[] args) {",
+                    "        System.out.println(divisibleByFive(5));",
+                    "        System.out.println(divisibleByFive(-55));",
+                    "        System.out.println(divisibleByFive(37));",
+                    "    }",
+                    "}"
+                ],
+                "c": [
+                    "#include <stdio.h>",
+                    "",
+                    "int divisibleByFive(int n) {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "int main() {",
+                    "    printf(\"%d\\n\", divisibleByFive(5));",
+                    "    printf(\"%d\\n\", divisibleByFive(-55));",
+                    "    printf(\"%d\\n\", divisibleByFive(37));",
+                    "    return 0;",
+                    "}"
+                ],
+                "cpp": [
+                    "#include <iostream>",
+                    "",
+                    "bool divisibleByFive(int n) {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "int main() {",
+                    "    std::cout << divisibleByFive(5) << std::endl;",
+                    "    std::cout << divisibleByFive(-55) << std::endl;",
+                    "    std::cout << divisibleByFive(37) << std::endl;",
+                    "    return 0;",
+                    "}"
+                ],
+                "csharp": [
+                    "public class DivisibleByFive {",
+                    "    public static bool divisibleByFive(int n) {",
+                    "        // Your code here",
+                    "    }",
+                    "",
+                    "    public static void Main(string[] args) {",
+                    "        System.Console.WriteLine(divisibleByFive(5));",
+                    "        System.Console.WriteLine(divisibleByFive(-55));",
+                    "        System.Console.WriteLine(divisibleByFive(37));",
+                    "    }",
+                    "}"
+                ],
+                "ruby": [
+                    "def divisibleByFive(n)",
+                    "    # Your code here",
+                    "end",
+                    "",
+                    "puts divisibleByFive(5)",
+                    "puts divisibleByFive(-55)",
+                    "puts divisibleByFive(37)"
+                ],
+                "swift": [
+                    "func divisibleByFive(_ n: Int) -> Bool {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "print(divisibleByFive(5))",
+                    "print(divisibleByFive(-55))",
+                    "print(divisibleByFive(37))"
+                ],
+                "php": [
+                    "<?php",
+                    "function divisibleByFive($n) {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "echo divisibleByFive(5);",
+                    "echo divisibleByFive(-55);",
+                    "echo divisibleByFive(37);",
+                    "?>"
+                ]
+            },
             "answer": ["true", "true", "false"]
         },
         {
             "id": 4,
             "title": "Return the Next Number from the Integer Passed",
             "difficulty": "Easy",
-            "body": [
+            "languages": ["javascript", "python", "java", "c", "cpp", "csharp", "ruby", "swift", "php"],
+            "problem_statement": [
                 "/*",
                 "Problem:",
                 "",
@@ -97,22 +389,119 @@
                 "nextNumber(9) ➞ 10",
                 "nextNumber(-3) ➞ -2",
                 "*/",
-                "",
-                "const nextNumber = (n) => {",
-                "    // Your code here",
-                "}",
-                "",
-                "console.log(nextNumber(0));",
-                "console.log(nextNumber(9));",
-                "console.log(nextNumber(-3));"
+                ""
             ],
+            "body": {
+                "javascript": [
+                    "const nextNumber = (n) => {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "console.log(nextNumber(0));",
+                    "console.log(nextNumber(9));",
+                    "console.log(nextNumber(-3));"
+                ],
+                "python": [
+                    "def nextNumber(n):",
+                    "    # Your code here",
+                    "    pass",
+                    "",
+                    "print(nextNumber(0))",
+                    "print(nextNumber(9))",
+                    "print(nextNumber(-3))"
+                ],
+                "java": [
+                    "public class Main {",
+                    "    public static int nextNumber(int n) {",
+                    "        // Your code here",
+                    "    }",
+                    "",
+                    "    public static void main(String[] args) {",
+                    "        System.out.println(nextNumber(0));",
+                    "        System.out.println(nextNumber(9));",
+                    "        System.out.println(nextNumber(-3));",
+                    "    }",
+                    "}"
+                ],
+                "c": [
+                    "#include <stdio.h>",
+                    "",
+                    "int nextNumber(int n) {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "int main() {",
+                    "    printf(\"%d\\n\", nextNumber(0));",
+                    "    printf(\"%d\\n\", nextNumber(9));",
+                    "    printf(\"%d\\n\", nextNumber(-3));",
+                    "    return 0;",
+                    "}"
+                ],
+                "cpp": [
+                    "#include <iostream>",
+                    "",
+                    "int nextNumber(int n) {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "int main() {",
+                    "    std::cout << nextNumber(0) << std::endl;",
+                    "    std::cout << nextNumber(9) << std::endl;",
+                    "    std::cout << nextNumber(-3) << std::endl;",
+                    "    return 0;",
+                    "}"
+                ],
+                "csharp": [
+                    "public class NextNumber {",
+                    "    public static int nextNumber(int n) {",
+                    "        // Your code here",
+                    "    }",
+                    "",
+                    "    public static void Main(string[] args) {",
+                    "        System.Console.WriteLine(nextNumber(0));",
+                    "        System.Console.WriteLine(nextNumber(9));",
+                    "        System.Console.WriteLine(nextNumber(-3));",
+                    "    }",
+                    "}"
+                ],
+                "ruby": [
+                    "def nextNumber(n)",
+                    "    # Your code here",
+                    "end",
+                    "",
+                    "puts nextNumber(0)",
+                    "puts nextNumber(9)",
+                    "puts nextNumber(-3)"
+                ],
+                "swift": [
+                    "func nextNumber(_ n: Int) -> Int {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "print(nextNumber(0))",
+                    "print(nextNumber(9))",
+                    "print(nextNumber(-3))"
+                ],
+                "php": [
+                    "<?php",
+                    "function nextNumber($n) {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "echo nextNumber(0);",
+                    "echo nextNumber(9);",
+                    "echo nextNumber(-3);",
+                    "?>"
+                ]
+            },
             "answer": ["1", "10", "-2"]
         },
         {
             "id": 5,
             "title": "Convert Minutes into Seconds",
             "difficulty": "Easy",
-            "body": [
+            "languages": ["javascript", "python", "java", "c", "cpp", "csharp", "ruby", "swift", "php"],
+            "problem_statement": [
                 "/*",
                 "Problem:",
                 "",
@@ -124,22 +513,119 @@
                 "convert(3) ➞ 180",
                 "convert(2) ➞ 120",
                 "*/",
-                "",
-                "const convert = (min) => {",
-                "    // Your code here",
-                "}",
-                "",
-                "console.log(convert(5));",
-                "console.log(convert(3));",
-                "console.log(convert(2));"
+                ""
             ],
+            "body": {
+                "javascript": [
+                    "const convert = (minutes) => {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "console.log(convert(5));",
+                    "console.log(convert(3));",
+                    "console.log(convert(2));"
+                ],
+                "python": [
+                    "def convert(minutes):",
+                    "    # Your code here",
+                    "    pass",
+                    "",
+                    "print(convert(5))",
+                    "print(convert(3))",
+                    "print(convert(2))"
+                ],
+                "java": [
+                    "public class Main {",
+                    "    public static int convert(int minutes) {",
+                    "        // Your code here",
+                    "    }",
+                    "",
+                    "    public static void main(String[] args) {",
+                    "        System.out.println(convert(5));",
+                    "        System.out.println(convert(3));",
+                    "        System.out.println(convert(2));",
+                    "    }",
+                    "}"
+                ],
+                "c": [
+                    "#include <stdio.h>",
+                    "",
+                    "int convert(int minutes) {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "int main() {",
+                    "    printf(\"%d\\n\", convert(5));",
+                    "    printf(\"%d\\n\", convert(3));",
+                    "    printf(\"%d\\n\", convert(2));",
+                    "    return 0;",
+                    "}"
+                ],
+                "cpp": [
+                    "#include <iostream>",
+                    "",
+                    "int convert(int minutes) {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "int main() {",
+                    "    std::cout << convert(5) << std::endl;",
+                    "    std::cout << convert(3) << std::endl;",
+                    "    std::cout << convert(2) << std::endl;",
+                    "    return 0;",
+                    "}"
+                ],
+                "csharp": [
+                    "public class Convert {",
+                    "    public static int convert(int minutes) {",
+                    "        // Your code here",
+                    "    }",
+                    "",
+                    "    public static void Main(string[] args) {",
+                    "        System.Console.WriteLine(convert(5));",
+                    "        System.Console.WriteLine(convert(3));",
+                    "        System.Console.WriteLine(convert(2));",
+                    "    }",
+                    "}"
+                ],
+                "ruby": [
+                    "def convert(minutes)",
+                    "    # Your code here",
+                    "end",
+                    "",
+                    "puts convert(5)",
+                    "puts convert(3)",
+                    "puts convert(2)"
+                ],
+                "swift": [
+                    "func convert(_ minutes: Int) -> Int {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "print(convert(5))",
+                    "print(convert(3))",
+                    "print(convert(2))"
+                ],
+                "php": [
+                    "<?php",
+                    "function convert($minutes) {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "echo convert(5);",
+                    "echo convert(3);",
+                    "echo convert(2);",
+                    "?>"
+                ]
+            },
             "answer": ["300", "180", "120"]
         },
         {
             "id": 6,
             "title": "Find the Perimeter of a Rectangle",
             "difficulty": "Easy",
-            "body": [
+            "languages": ["javascript", "python", "java", "c", "cpp", "csharp", "ruby", "swift", "php"],
+            "problem_statement": [
                 "/*",
                 "Problem:",
                 "",
@@ -151,22 +637,119 @@
                 "findPerimeter(20, 10) ➞ 60",
                 "findPerimeter(2, 9) ➞ 22",
                 "*/",
-                "",
-                "const findPerimeter = (length, width) => {",
-                "    // Your code here",
-                "}",
-                "",
-                "console.log(findPerimeter(6, 7));",
-                "console.log(findPerimeter(20, 10));",
-                "console.log(findPerimeter(2, 9));"
+                ""
             ],
+            "body": {
+                "javascript": [
+                    "const findPerimeter = (length, width) => {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "console.log(findPerimeter(6, 7));",
+                    "console.log(findPerimeter(20, 10));",
+                    "console.log(findPerimeter(2, 9));"
+                ],
+                "python": [
+                    "def findPerimeter(length, width):",
+                    "    # Your code here",
+                    "    pass",
+                    "",
+                    "print(findPerimeter(6, 7))",
+                    "print(findPerimeter(20, 10))",
+                    "print(findPerimeter(2, 9))"
+                ],
+                "java": [
+                    "public class Main {",
+                    "    public static int findPerimeter(int length, int width) {",
+                    "        // Your code here",
+                    "    }",
+                    "",
+                    "    public static void main(String[] args) {",
+                    "        System.out.println(findPerimeter(6, 7));",
+                    "        System.out.println(findPerimeter(20, 10));",
+                    "        System.out.println(findPerimeter(2, 9));",
+                    "    }",
+                    "}"
+                ],
+                "c": [
+                    "#include <stdio.h>",
+                    "",
+                    "int findPerimeter(int length, int width) {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "int main() {",
+                    "    printf(\"%d\\n\", findPerimeter(6, 7));",
+                    "    printf(\"%d\\n\", findPerimeter(20, 10));",
+                    "    printf(\"%d\\n\", findPerimeter(2, 9));",
+                    "    return 0;",
+                    "}"
+                ],
+                "cpp": [
+                    "#include <iostream>",
+                    "",
+                    "int findPerimeter(int length, int width) {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "int main() {",
+                    "    std::cout << findPerimeter(6, 7) << std::endl;",
+                    "    std::cout << findPerimeter(20, 10) << std::endl;",
+                    "    std::cout << findPerimeter(2, 9) << std::endl;",
+                    "    return 0;",
+                    "}"
+                ],
+                "csharp": [
+                    "public class FindPerimeter {",
+                    "    public static int findPerimeter(int length, int width) {",
+                    "        // Your code here",
+                    "    }",
+                    "",
+                    "    public static void Main(string[] args) {",
+                    "        System.Console.WriteLine(findPerimeter(6, 7));",
+                    "        System.Console.WriteLine(findPerimeter(20, 10));",
+                    "        System.Console.WriteLine(findPerimeter(2, 9));",
+                    "    }",
+                    "}"
+                ],
+                "ruby": [
+                    "def findPerimeter(length, width)",
+                    "    # Your code here",
+                    "end",
+                    "",
+                    "puts findPerimeter(6, 7)",
+                    "puts findPerimeter(20, 10)",
+                    "puts findPerimeter(2, 9)"
+                ],
+                "swift": [
+                    "func findPerimeter(_ length: Int, _ width: Int) -> Int {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "print(findPerimeter(6, 7))",
+                    "print(findPerimeter(20, 10))",
+                    "print(findPerimeter(2, 9))"
+                ],
+                "php": [
+                    "<?php",
+                    "function findPerimeter($length, $width) {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "echo findPerimeter(6, 7);",
+                    "echo findPerimeter(20, 10);",
+                    "echo findPerimeter(2, 9);",
+                    "?>"
+                ]
+            },
             "answer": ["26", "60", "22"]
         },
         {
             "id": 7,
             "title": "Less Than 100?",
             "difficulty": "Easy",
-            "body": [
+            "languages": ["javascript", "python", "java", "c", "cpp", "csharp", "ruby", "swift", "php"],
+            "problem_statement": [
                 "/*",
                 "Problem:",
                 "",
@@ -178,15 +761,111 @@
                 "lessThan100(83, 34) ➞ false",
                 "lessThan100(3, 77) ➞ true",
                 "*/",
-                "",
-                "const lessThan100 = (a, b) => {",
-                "    // Your code here",
-                "}",
-                "",
-                "console.log(lessThan100(22, 15));",
-                "console.log(lessThan100(83, 34));",
-                "console.log(lessThan100(3, 77));"
+                ""
             ],
+            "body": {
+                "javascript": [
+                    "const lessThan100 = (a, b) => {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "console.log(lessThan100(22, 15));",
+                    "console.log(lessThan100(83, 34));",
+                    "console.log(lessThan100(3, 77));"
+                ],
+                "python": [
+                    "def lessThan100(a, b):",
+                    "    # Your code here",
+                    "    pass",
+                    "",
+                    "print(lessThan100(22, 15))",
+                    "print(lessThan100(83, 34))",
+                    "print(lessThan100(3, 77))"
+                ],
+                "java": [
+                    "public class Main {",
+                    "    public static boolean lessThan100(int a, int b) {",
+                    "        // Your code here",
+                    "    }",
+                    "",
+                    "    public static void main(String[] args) {",
+                    "        System.out.println(lessThan100(22, 15));",
+                    "        System.out.println(lessThan100(83, 34));",
+                    "        System.out.println(lessThan100(3, 77));",
+                    "    }",
+                    "}"
+                ],
+                "c": [
+                    "#include <stdio.h>",
+                    "",
+                    "int lessThan100(int a, int b) {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "int main() {",
+                    "    printf(\"%d\\n\", lessThan100(22, 15));",
+                    "    printf(\"%d\\n\", lessThan100(83, 34));",
+                    "    printf(\"%d\\n\", lessThan100(3, 77));",
+                    "    return 0;",
+                    "}"
+                ],
+                "cpp": [
+                    "#include <iostream>",
+                    "",
+                    "int lessThan100(int a, int b) {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "int main() {",
+                    "    std::cout << lessThan100(22, 15) << std::endl;",
+                    "    std::cout << lessThan100(83, 34) << std::endl;",
+                    "    std::cout << lessThan100(3, 77) << std::endl;",
+                    "    return 0;",
+                    "}"
+                ],
+                "csharp": [
+                    "public class LessThan100 {",
+                    "    public static bool lessThan100(int a, int b) {",
+                    "        // Your code here",
+                    "    }",
+                    "",
+                    "    public static void Main(string[] args) {",
+                    "        System.Console.WriteLine(lessThan100(22, 15));",
+                    "        System.Console.WriteLine(lessThan100(83, 34));",
+                    "        System.Console.WriteLine(lessThan100(3, 77));",
+                    "    }",
+                    "}"
+                ],
+                "ruby": [
+                    "def lessThan100(a, b)",
+                    "    # Your code here",
+                    "end",
+                    "",
+                    "puts lessThan100(22, 15)",
+                    "puts lessThan100(83, 34)",
+                    "puts lessThan100(3, 77)"
+                ],
+                "swift": [
+                    "func lessThan100(_ a: Int, _ b: Int) -> Bool {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "print(lessThan100(22, 15))",
+                    "print(lessThan100(83, 34))",
+                    "print(lessThan100(3, 77))"
+                ],
+                "php": [
+                    "<?php",
+                    "function lessThan100($a, $b) {",
+                    "    // Your code here",
+                    "}",
+                    "",
+                    "echo lessThan100(22, 15);",
+                    "echo lessThan100(83, 34);",
+                    "echo lessThan100(3, 77);",
+                    "?>"
+                ]
+            },
             "answer": ["true", "false", "true"]
         }
     ]
