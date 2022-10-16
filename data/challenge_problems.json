@@ -31,7 +31,7 @@
             "body": [
                 "/**",
                 "* Problem: Create a function that takes a string as its argument and returns the string in",
-                "           reversed order.",
+                "\t\t\treversed order.",
                 "*/",
                 "",
                 "// Examples:",
@@ -56,7 +56,7 @@
             "body": [
                 "/**",
                 "* Problem: Create a function that returns true if an integer is evenly divisible by 5, and",
-                "           false otherwise.",
+                "\t\t\tfalse otherwise.",
                 "*/",
                 "",
                 "// Examples:",
@@ -81,7 +81,7 @@
             "body": [
                 "/**",
                 "* Problem: Create a function that takes a number as an argument, increments the number by +1 and",
-                "           returns the result.",
+                "\t\t\treturns the result.",
                 "*/",
                 "",
                 "// Examples:",
@@ -106,7 +106,7 @@
             "body": [
                 "/**",
                 "* Problem: Create a function that takes an integer as an argument and returns the amount of",
-                "           seconds that have passed.",
+                "\t\t\tseconds that have passed.",
                 "*/",
                 "",
                 "// Examples:",
@@ -155,7 +155,7 @@
             "body": [
                 "/**",
                 "* Problem: Create a function that takes two numbers as arguments and return true if the sum of the",
-                "           numbers is less than 100. Otherwise return false.",
+                "\t\t\tnumbers is less than 100. Otherwise return false.",
                 "*/",
                 "",
                 "// Examples:",
