@@ -8,13 +8,19 @@
             "problem_statement": [
                 "Problem:",
                 "",
-                "Create a function that takes two numbers as arguments and returns their sum.",
+                "Create a function that takes two numbers as arguments and returns their sum. Print the results of test cases to stdout.",
                 "",
                 "Examples:",
                 "",
                 "addition(3, 2) ➞ 5",
                 "addition(-3, -6) ➞ -9",
-                "addition(7, 3) ➞ 10"
+                "addition(7, 3) ➞ 10",
+                "",
+                "Test Cases:",
+                "",
+                "addition(36, -54)",
+                "addition(0, 0)",
+                "addition(-5, -5)"
             ],
             "body": {
                 "javascript": [
@@ -22,18 +28,18 @@
                     "    // Your code here",
                     "}",
                     "",
-                    "console.log(addition(3, 2));",
-                    "console.log(addition(-3, -6));",
-                    "console.log(addition(7, 3));"
+                    "console.log(addition(36, -54))",
+                    "console.log(addition(0, 0))",
+                    "console.log(addition(-5, -5))"
                 ],
                 "python": [
                     "def addition(a, b):",
                     "    # Your code here",
                     "    pass",
                     "",
-                    "print(addition(3, 2))",
-                    "print(addition(-3, -6))",
-                    "print(addition(7, 3))"
+                    "print(addition(36, -54))",
+                    "print(addition(0, 0))",
+                    "print(addition(-5, -5))"
                 ],
                 "java": [
                     "public class Main {",
@@ -42,9 +48,9 @@
                     "    }",
                     "",
                     "    public static void main(String[] args) {",
-                    "        System.out.println(addition(3, 2));",
-                    "        System.out.println(addition(-3, -6));",
-                    "        System.out.println(addition(7, 3));",
+                    "        System.out.println(addition(36, -54));",
+                    "        System.out.println(addition(0, 0));",
+                    "        System.out.println(addition(-5, -5));",
                     "    }",
                     "}"
                 ],
@@ -56,9 +62,9 @@
                     "}",
                     "",
                     "int main() {",
-                    "    printf(\"%d\\n\", addition(3, 2));",
-                    "    printf(\"%d\\n\", addition(-3, -6));",
-                    "    printf(\"%d\\n\", addition(7, 3));",
+                    "    printf(\"%d\\n\", addition(36, -54));",
+                    "    printf(\"%d\\n\", addition(0, 0));",
+                    "    printf(\"%d\\n\", addition(-5, -5));",
                     "    return 0;",
                     "}"
                 ],
@@ -70,9 +76,9 @@
                     "}",
                     "",
                     "int main() {",
-                    "    std::cout << addition(3, 2) << std::endl;",
-                    "    std::cout << addition(-3, -6) << std::endl;",
-                    "    std::cout << addition(7, 3) << std::endl;",
+                    "    std::cout << addition(36, -54) << std::endl;",
+                    "    std::cout << addition(0, 0) << std::endl;",
+                    "    std::cout << addition(-5, -5) << std::endl;",
                     "    return 0;",
                     "}"
                 ],
@@ -83,9 +89,9 @@
                     "    }",
                     "",
                     "    public static void Main(string[] args) {",
-                    "        System.Console.WriteLine(addition(3, 2));",
-                    "        System.Console.WriteLine(addition(-3, -6));",
-                    "        System.Console.WriteLine(addition(7, 3));",
+                    "        System.Console.WriteLine(addition(36, -54));",
+                    "        System.Console.WriteLine(addition(0, 0));",
+                    "        System.Console.WriteLine(addition(-5, -5));",
                     "    }",
                     "}"
                 ],
@@ -99,9 +105,9 @@
                     "}",
                     "",
                     "func main() {",
-                    "    fmt.Println(addition(3, 2))",
-                    "    fmt.Println(addition(-3, -6))",
-                    "    fmt.Println(addition(7, 3))",
+                    "    fmt.Println(addition(36, -54))",
+                    "    fmt.Println(addition(0, 0))",
+                    "    fmt.Println(addition(-5, -5))",
                     "}"
                 ],
                 "ruby": [
@@ -109,18 +115,18 @@
                     "    # Your code here",
                     "end",
                     "",
-                    "puts addition(3, 2)",
-                    "puts addition(-3, -6)",
-                    "puts addition(7, 3)"
+                    "puts addition(36, -54)",
+                    "puts addition(0, 0)",
+                    "puts addition(-5, -5)"
                 ],
                 "swift": [
                     "func addition(_ a: Int, _ b: Int) -> Int {",
                     "    // Your code here",
                     "}",
                     "",
-                    "print(addition(3, 2))",
-                    "print(addition(-3, -6))",
-                    "print(addition(7, 3))"
+                    "print(addition(36, -54))",
+                    "print(addition(0, 0))",
+                    "print(addition(-5, -5))"
                 ],
                 "php": [
                     "<?php",
@@ -128,24 +134,13 @@
                     "    // Your code here",
                     "}",
                     "",
-                    "echo addition(3, 2);",
-                    "echo addition(-3, -6);",
-                    "echo addition(7, 3);",
+                    "echo addition(36, -54);",
+                    "echo addition(0, 0);",
+                    "echo addition(-5, -5);",
                     "?>"
                 ]
             },
-            "readOnlyMap": {
-                "javascript": 3,
-                "python": 3,
-                "java": 6,
-                "c": 6,
-                "cpp": 6,
-                "csharp": 6,
-                "ruby": 3,
-                "swift": 3,
-                "php": 4
-            },
-            "answer": ["5", "-9", "10"]
+            "answer": ["-18", "0", "-10"]
         },
         {
             "id": 2,
@@ -155,13 +150,19 @@
             "problem_statement": [
                 "Problem:",
                 "",
-                "Create a function that takes a string as its argument and returns the string in reversed order.",
+                "Create a function that takes a string as its argument and returns the string in reversed order. Print the results of test cases to stdout.",
                 "",
                 "Examples:",
                 "",
-                "reverse(\"Hello World\") ➞ \"dlroW olleH\"",
-                "reverse(\"The quick brown fox.\") ➞ \".xof nworb kciuq ehT\"",
-                "reverse(\"Edabit is really helpful!\") ➞ \"!lufpleh yllaer si tibadE\""
+                "reverse(\"hello\") ➞ \"olleh\"",
+                "reverse(\"World\") ➞ \"dlroW\"",
+                "reverse(\"a\") ➞ \"a\"",
+                "",
+                "Test Cases:",
+                "",
+                "reverse(\"Hello World\")",
+                "reverse(\"The quick brown fox.\")",
+                "reverse(\"Edabit is really helpful!\")"
             ],
             "body": {
                 "javascript": [
@@ -281,18 +282,6 @@
                     "?>"
                 ]
             },
-            "readOnlyMap": {
-                "javascript": 3,
-                "python": 3,
-                "java": 6,
-                "c": 6,
-                "cpp": 6,
-                "csharp": 6,
-                "go": 4,
-                "ruby": 3,
-                "swift": 3,
-                "php": 4
-            },
             "answer": ["olleh", ".xof nworb kciuq ehT", "!lufpleh yllaer si tibadE"]
         },
         {
@@ -303,13 +292,19 @@
             "problem_statement": [
                 "Problem:",
                 "",
-                "Create a function that returns true if an integer is evenly divisible by 5, and false otherwise.",
+                "Create a function that returns true if an integer is evenly divisible by 5, and false otherwise. Print the results of test cases to stdout.",
                 "",
                 "Examples:",
                 "",
-                "divisibleByFive(5) ➞ true",
-                "divisibleByFive(-55) ➞ true",
-                "divisibleByFive(37) ➞ false"
+                "divisibleByFive(6) ➞ false",
+                "divisibleByFive(-12) ➞ false",
+                "divisibleByFive(10) ➞ true",
+                "",
+                "Test Cases:",
+                "",
+                "divisibleByFive(5)",
+                "divisibleByFive(-55)",
+                "divisibleByFive(37)"
             ],
             "body": {
                 "javascript": [
@@ -429,18 +424,6 @@
                     "?>"
                 ]
             },
-            "readOnlyMap": {
-                "javascript": 3,
-                "python": 3,
-                "java": 6,
-                "c": 6,
-                "cpp": 6,
-                "csharp": 6,
-                "go": 4,
-                "ruby": 3,
-                "swift": 3,
-                "php": 4
-            },
             "answer": ["true", "true", "false"]
         },
         {
@@ -451,13 +434,19 @@
             "problem_statement": [
                 "Problem:",
                 "",
-                "Create a function that takes a number as an argument, increments the number by +1 and returns the result.",
+                "Create a function that takes a number as an argument, increments the number by +1 and returns the result. Print the results of test cases to stdout.",
                 "",
                 "Examples:",
                 "",
-                "nextNumber(0) ➞ 1",
-                "nextNumber(9) ➞ 10",
-                "nextNumber(-3) ➞ -2"
+                "nextNumber(7) ➞ 8",
+                "nextNumber(-5) ➞ -4",
+                "nextNumber(11) ➞ 12",
+                "",
+                "Test Cases:",
+                "",
+                "nextNumber(0)",
+                "nextNumber(9)",
+                "nextNumber(-3)"
             ],
             "body": {
                 "javascript": [
@@ -577,18 +566,6 @@
                     "?>"
                 ]
             },
-            "readOnlyMap": {
-                "javascript": 3,
-                "python": 3,
-                "java": 6,
-                "c": 6,
-                "cpp": 6,
-                "csharp": 6,
-                "go": 4,
-                "ruby": 3,
-                "swift": 3,
-                "php": 4
-            },
             "answer": ["1", "10", "-2"]
         },
         {
@@ -599,13 +576,19 @@
             "problem_statement": [
                 "Problem:",
                 "",
-                "Write a function that takes an integer minutes and converts it to seconds.",
+                "Write a function that takes an integer minutes and converts it to seconds. If minutes is negative, return 0. Print the results of test cases to stdout.",
                 "",
                 "Examples:",
                 "",
-                "convert(5) ➞ 300",
-                "convert(3) ➞ 180",
-                "convert(2) ➞ 120"
+                "convert(0) ➞ 0",
+                "convert(2) ➞ 120",
+                "convert(10) ➞ 600",
+                "",
+                "Test Cases:",
+                "",
+                "convert(5)",
+                "convert(3)",
+                "convert(-5)"
             ],
             "body": {
                 "javascript": [
@@ -615,7 +598,7 @@
                     "",
                     "console.log(convert(5));",
                     "console.log(convert(3));",
-                    "console.log(convert(2));"
+                    "console.log(convert(-5));"
                 ],
                 "python": [
                     "def convert(minutes):",
@@ -624,7 +607,7 @@
                     "",
                     "print(convert(5))",
                     "print(convert(3))",
-                    "print(convert(2))"
+                    "print(convert(-5))"
                 ],
                 "java": [
                     "public class Main {",
@@ -635,7 +618,7 @@
                     "    public static void main(String[] args) {",
                     "        System.out.println(convert(5));",
                     "        System.out.println(convert(3));",
-                    "        System.out.println(convert(2));",
+                    "        System.out.println(convert(-5));",
                     "    }",
                     "}"
                 ],
@@ -649,7 +632,7 @@
                     "int main() {",
                     "    printf(\"%d\\n\", convert(5));",
                     "    printf(\"%d\\n\", convert(3));",
-                    "    printf(\"%d\\n\", convert(2));",
+                    "    printf(\"%d\\n\", convert(-5));",
                     "    return 0;",
                     "}"
                 ],
@@ -663,7 +646,7 @@
                     "int main() {",
                     "    std::cout << convert(5) << std::endl;",
                     "    std::cout << convert(3) << std::endl;",
-                    "    std::cout << convert(2) << std::endl;",
+                    "    std::cout << convert(-5) << std::endl;",
                     "    return 0;",
                     "}"
                 ],
@@ -676,7 +659,7 @@
                     "    public static void Main(string[] args) {",
                     "        System.Console.WriteLine(convert(5));",
                     "        System.Console.WriteLine(convert(3));",
-                    "        System.Console.WriteLine(convert(2));",
+                    "        System.Console.WriteLine(convert(-5));",
                     "    }",
                     "}"
                 ],
@@ -692,7 +675,7 @@
                     "func main() {",
                     "    fmt.Println(convert(5))",
                     "    fmt.Println(convert(3))",
-                    "    fmt.Println(convert(2))",
+                    "    fmt.Println(convert(-5))",
                     "}"
                 ],
                 "ruby": [
@@ -702,7 +685,7 @@
                     "",
                     "puts convert(5)",
                     "puts convert(3)",
-                    "puts convert(2)"
+                    "puts convert(-5)"
                 ],
                 "swift": [
                     "func convert(_ minutes: Int) -> Int {",
@@ -711,7 +694,7 @@
                     "",
                     "print(convert(5))",
                     "print(convert(3))",
-                    "print(convert(2))"
+                    "print(convert(-5))"
                 ],
                 "php": [
                     "<?php",
@@ -721,23 +704,11 @@
                     "",
                     "echo convert(5);",
                     "echo convert(3);",
-                    "echo convert(2);",
+                    "echo convert(-5);",
                     "?>"
                 ]
             },
-            "readOnlyMap": {
-                "javascript": 3,
-                "python": 3,
-                "java": 6,
-                "c": 6,
-                "cpp": 6,
-                "csharp": 6,
-                "go": 4,
-                "ruby": 3,
-                "swift": 3,
-                "php": 4
-            },
-            "answer": ["300", "180", "120"]
+            "answer": ["300", "180", "0"]
         },
         {
             "id": 6,
@@ -747,13 +718,19 @@
             "problem_statement": [
                 "Problem:",
                 "",
-                "Create a function that takes length and width and finds the perimeter of a rectangle.",
+                "Create a function that takes length and width and finds the perimeter of a rectangle. Print the results of test cases to stdout.",
                 "",
                 "Examples:",
                 "",
-                "findPerimeter(6, 7) ➞ 26",
-                "findPerimeter(20, 10) ➞ 60",
-                "findPerimeter(2, 9) ➞ 22"
+                "findPerimeter(3, 4) ➞ 14",
+                "findPerimeter(10, 5) ➞ 30",
+                "findPerimeter(1, 1) ➞ 4",
+                "",
+                "Test Cases:",
+                "",
+                "findPerimeter(6, 7)",
+                "findPerimeter(20, 10)",
+                "findPerimeter(2, 9)"
             ],
             "body": {
                 "javascript": [
@@ -873,18 +850,6 @@
                     "?>"
                 ]
             },
-            "readOnlyMap": {
-                "javascript": 3,
-                "python": 3,
-                "java": 6,
-                "c": 6,
-                "cpp": 6,
-                "csharp": 6,
-                "go": 4,
-                "ruby": 3,
-                "swift": 3,
-                "php": 4
-            },
             "answer": ["26", "60", "22"]
         },
         {
@@ -895,13 +860,19 @@
             "problem_statement": [
                 "Problem:",
                 "",
-                "Create a function that takes two numbers as arguments and return true if the sum of the numbers is less than 100. Otherwise return false.",
+                "Create a function that takes two numbers as arguments and return true if the sum of the numbers is less than 100. Otherwise return false. Print the results of test cases to stdout.",
                 "",
                 "Examples:",
                 "",
-                "lessThan100(22, 15) ➞ true",
-                "lessThan100(83, 34) ➞ false",
-                "lessThan100(3, 77) ➞ true"
+                "lessThan100(10, 20) ➞ true",
+                "lessThan100(75, 55) ➞ false",
+                "lessThan100(0, 0) ➞ true",
+                "",
+                "Test Cases:",
+                "",
+                "lessThan100(22, 15)",
+                "lessThan100(83, 34)",
+                "lessThan100(3, 77)"
             ],
             "body": {
                 "javascript": [
@@ -1021,18 +992,6 @@
                     "?>"
                 ]
             },
-            "readOnlyMap": {
-                "javascript": 3,
-                "python": 3,
-                "java": 6,
-                "c": 6,
-                "cpp": 6,
-                "csharp": 6,
-                "go": 4,
-                "ruby": 3,
-                "swift": 3,
-                "php": 4
-            },
             "answer": ["true", "false", "true"]
         },
         {
@@ -1043,13 +1002,19 @@
             "problem_statement": [
                 "Problem:",
                 "",
-                "Create a function that converts an object into an array, where each element represents a key-value pair in the form of an array.",
+                "Create a function that converts an object into an array, where each element represents a key-value pair in the form of an array. An empty object should equate to an empty array. Print the results of test cases to stdout.",
                 "",
                 "Examples:",
                 "",
-                "toArray({ a: 1, b: 2 }) ➞ [[\"a\", 1], [\"b\", 2]]",
-                "toArray({ shrimp: 15, tots: 12 }) ➞ [[\"shrimp\", 15], [\"tots\", 12]]",
-                "toArray({}) ➞ []"
+                "toArray({ a: 5, b: 10, c: 15 }) ➞ [[\"a\", 5], [\"b\", 10], [\"c\", 15]]",
+                "toArray({ firstName: \"John\", lastName: \"Doe\" }) ➞ [[\"firstName\", \"John\"], [\"lastName\", \"Doe\"]]",
+                "toArray({ key: \"value\" }) ➞ [[\"key\", \"value\"]]",
+                "",
+                "Test Cases:",
+                "",
+                "toArray({ a: 1, b: 2 })",
+                "toArray({ shrimp: 15, tots: 12 })",
+                "toArray({})"
             ],
             "body": {
                 "javascript": [
@@ -1296,16 +1261,6 @@
                     "}"
                 ]
             },
-            "readOnlyMap": {
-                "javascript": 3,
-                "python": 3,
-                "java": 15,
-                "c": 27,
-                "cpp": 27,
-                "csharp": 32,
-                "go": 25,
-                "ruby": 23
-            },
             "answer": ["[[\"a\", \"1\"], [\"b\", \"2\"]]", "[[\"shrimp\", \"15\"], [\"tots\", \"12\"]]", "[]"]
         },
         {
@@ -1316,13 +1271,19 @@
             "problem_statement": [
                 "Problem:",
                 "",
-                "Create a function that takes a string and returns the number (count) of vowels contained within it. Letters considered as vowels are: a, e, i, o, u.",
+                "Create a function that takes a string and returns the number (count) of vowels contained within it. Letters considered as vowels are: a, e, i, o, u. Note: y is not considered a vowel. Print the results of test cases to stdout.",
                 "",
                 "Examples:",
                 "",
-                "countVowels(\"Celebration\") ➞ 5",
-                "countVowels(\"Palm\") ➞ 1",
-                "countVowels(\"Prediction\") ➞ 4"
+                "vowels(\"Hello\") ➞ 2",
+                "vowels(\"Why\") ➞ 0",
+                "vowels(\"EdiCode\") ➞ 4",
+                "",
+                "TestCases:",
+                "",
+                "countVowels(\"Celebration\")",
+                "countVowels(\"Palm\")",
+                "countVowels(\"Prediction\")"
             ],
             "body": {
                 "javascript": [
@@ -1441,18 +1402,6 @@
                     "?>"
                 ]
             },
-            "readOnlyMap": {
-                "javascript": 3,
-                "python": 3,
-                "java": 6,
-                "c": 6,
-                "cpp": 6,
-                "csharp": 6,
-                "go": 5,
-                "ruby": 3,
-                "swift": 3,
-                "php": 4
-            },
             "answer": ["5", "1", "4"]
         },
         {
@@ -1463,13 +1412,19 @@
             "problem_statement": [
                 "Problem:",
                 "",
-                "Create a function that takes an array of numbers and returns the second largest number.",
+                "Create a function that takes an array of numbers and returns the second largest number. Print the results of test cases to stdout.",
                 "",
                 "Examples:",
                 "",
-                "secondLargest([10, 40, 30, 20, 50]) ➞ 40",
-                "secondLargest([25, 143, 89, 13, 105]) ➞ 105",
-                "secondLargest([54, 23, 11, 17, 10]) ➞ 23"
+                "secondLargest([1, 2, 3, 4, 5]) ➞ 4",
+                "secondLargest([20, -20, 40]) ➞ 20",
+                "secondLargest([10, 10, 10, 10, 10]) ➞ 10",
+                "",
+                "Test Cases:",
+                "",
+                "secondLargest([10, 40, 30, 20, 50])",
+                "secondLargest([25, 143, 89, 13, 105])",
+                "secondLargest([54, 23, 11, 17, 10])"
             ],
             "body": {
                 "javascript": [
@@ -1588,18 +1543,6 @@
                     "?>"
                 ]
             },
-            "readOnlyMap": {
-                "javascript": 3,
-                "python": 3,
-                "java": 6,
-                "c": 6,
-                "cpp": 6,
-                "csharp": 6,
-                "go": 5,
-                "ruby": 3,
-                "swift": 3,
-                "php": 4
-            },
             "answer": ["40", "105", "23"]
         },
         {
@@ -1610,13 +1553,19 @@
             "problem_statement": [
                 "Problem:",
                 "",
-                "Create a function that takes an array of numbers and returns a sorted array. The function should sort the array using the bubble sort algorithm.",
+                "Create a function that takes an array of numbers and returns a sorted array. The function should sort the array using the bubble sort algorithm. Print the results of test cases to stdout.",
                 "",
                 "Examples:",
                 "",
-                "bubbleSort([5, 2, 7, 1]) ➞ [1, 2, 5, 7]",
-                "bubbleSort([10, 5, 20, 8]) ➞ [5, 8, 10, 20]",
-                "bubbleSort([1, 2, 3, 4]) ➞ [1, 2, 3, 4]"
+                "bubbleSort([10, 20, 50, 50, 20]) ➞ [10, 20, 20, 50, 50]",
+                "bubbleSort([0, 3, 9, 7, -1]) ➞ [-1, 0, 3, 7, 9]",
+                "bubbleSort([5, 4, 3, 2, 1]) ➞ [1, 2, 3, 4, 5]",
+                "",
+                "Test Cases:",
+                "",
+                "bubbleSort([5, 2, 7, 1])",
+                "bubbleSort([10, 5, 20, 8])",
+                "bubbleSort([1, 2, 3, 4])"
             ],
             "body": {
                 "javascript": [
@@ -1733,18 +1682,6 @@
                     "?>"
                 ]
             },
-            "readOnlyMap": {
-                "javascript": 3,
-                "python": 3,
-                "java": 6,
-                "c": 6,
-                "cpp": 6,
-                "csharp": 6,
-                "go": 5,
-                "ruby": 3,
-                "swift": 3,
-                "php": 4
-            },
             "answer": ["[1, 2, 5, 7]", "[5, 8, 10, 20]", "[1, 2, 3, 4]"]
         },
         {
@@ -1755,13 +1692,19 @@
             "problem_statement": [
                 "Problem:",
                 "",
-                "Create a function that takes two numbers as arguments (num, length) and returns an array of multiples of num up to length.",
+                "Create a function that takes two numbers as arguments (num, length) and returns an array of multiples of num up to length. Print the results of test cases to stdout.",
                 "",
                 "Examples:",
                 "",
-                "arrayOfMultiples(7, 5) ➞ [7, 14, 21, 28, 35]",
-                "arrayOfMultiples(12, 10) ➞ [12, 24, 36, 48, 60, 72, 84, 96, 108, 120]",
-                "arrayOfMultiples(17, 6) ➞ [17, 34, 51, 68, 85, 102]"
+                "arrayOfMultiples(1, 3) ➞ [1, 2, 3]",
+                "arrayOfMultiples(3, 10) ➞ [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]",
+                "arrayOfMultiples(27, 1) ➞ [27]",
+                "",
+                "Test Cases:",
+                "",
+                "arrayOfMultiples(7, 5)",
+                "arrayOfMultiples(12, 10)",
+                "arrayOfMultiples(17, 6)"
             ],
             "body": {
                 "javascript": [
@@ -1878,18 +1821,6 @@
                     "?>"
                 ]
             },
-            "readOnlyMap": {
-                "javascript": 3,
-                "python": 3,
-                "java": 6,
-                "c": 6,
-                "cpp": 6,
-                "csharp": 6,
-                "go": 5,
-                "ruby": 3,
-                "swift": 3,
-                "php": 4
-            },
             "answer": ["[7, 14, 21, 28, 35]", "[12, 24, 36, 48, 60, 72, 84, 96, 108, 120]", "[17, 34, 51, 68, 85, 102]"]
         },
         {
@@ -1900,13 +1831,19 @@
             "problem_statement": [
                 "Problem:",
                 "",
-                "Create a function that takes an array of arrays with numbers. Return a new (single) array with the largest numbers of each.",
+                "Create a function that takes an array of arrays with numbers. Return a new (single) array with the largest numbers of each. Print the results of test cases to stdout.",
                 "",
                 "Examples:",
                 "",
-                "findLargestNums([[4, 2, 7, 1], [20, 70, 40, 90], [1, 2, 0]]) ➞ [7, 90, 2]",
-                "findLargestNums([[300, 200, 600, 150], [1000, 1001, 857, 1]]) ➞ [600, 1001]",
-                "findLargestNums([[1111, 2222], [3333], [4444, 5555, 6666]]) ➞ [2222, 3333, 6666]"
+                "findLargestNums([[1, 2], [3, 4], [5, 6, 7]]) ➞ [2, 4, 7]",
+                "findLargestNums([[5, 10, 20], [1, 2, 3], [4, 5, 6]]) ➞ [20, 3, 6]",
+                "findLargestNums([[1], [2], [3]]) ➞ [1, 2, 3]",
+                "",
+                "Test Cases:",
+                "",
+                "findLargestNums([[4, 2, 7, 1], [20, 70, 40, 90], [1, 2, 0]])",
+                "findLargestNums([[300, 200, 600, 150], [1000, 1001, 857, 1]])",
+                "findLargestNums([[1111, 2222], [3333], [4444, 5555, 6666]])"
             ],
             "body": {
                 "javascript": [
@@ -2015,17 +1952,6 @@
                     "print(findLargestNums([[1111, 2222], [3333], [4444, 5555, 6666]]))"
                 ]
             },
-            "readOnlyMap": {
-                "javascript": 3,
-                "python": 3,
-                "java": 6,
-                "c": 9,
-                "cpp": 6,
-                "csharp": 6,
-                "go": 5,
-                "ruby": 3,
-                "swift": 3
-            },
             "answer": ["[7, 90, 2]", "[600, 1001]", "[2222, 3333, 6666]"]
         },
         {
@@ -2036,13 +1962,19 @@
             "problem_statement": [
                 "Problem:",
                 "",
-                "Create a function that squares every digit of a number.",
+                "Create a function that squares every digit of a number. Print the results of test cases to stdout.",
                 "",
                 "Examples:",
                 "",
-                "squareDigits(9119) ➞ 811181",
-                "squareDigits(2483) ➞ 416649",
-                "squareDigits(3212) ➞ 9414"
+                "squareDigits(123) ➞ 149",
+                "squareDigits(999) ➞ 818181",
+                "squareDigits(5) ➞ 25",
+                "",
+                "Test Cases:",
+                "",
+                "squareDigits(9119)",
+                "squareDigits(2483)",
+                "squareDigits(3212)"
             ],
             "body": {
                 "javascript": [
@@ -2159,18 +2091,6 @@
                     "?>"
                 ]
             },
-            "readOnlyMap": {
-                "javascript": 3,
-                "python": 3,
-                "java": 6,
-                "c": 6,
-                "cpp": 6,
-                "csharp": 6,
-                "go": 5,
-                "ruby": 3,
-                "swift": 3,
-                "php": 4
-            },
             "answer": ["811181", "416649", "9414"]
         },
         {
@@ -2181,13 +2101,19 @@
             "problem_statement": [
                 "Problem:",
                 "",
-                "Given a string, find the length of the longest substring without repeating characters.",
+                "Given a string, find the length of the longest substring without repeating characters. Print the results of test cases to stdout.",
                 "",
                 "Examples:",
                 "",
-                "lengthOfLongestSubstring(\"abcabcbb\") ➞ 3",
-                "lengthOfLongestSubstring(\"aaaaaa\") ➞ 1",
-                "lengthOfLongestSubstring(\"abcde\") ➞ 5"
+                "lengthOfLongestSubstring(\"EdiCode\") ➞ 5",
+                "lengthOfLongestSubstring(\"Hello World\") ➞ 7",
+                "lengthOfLongestSubstring(\"Test\") ➞ 3",
+                "",
+                "Test Cases:",
+                "",
+                "lengthOfLongestSubstring(\"abcabcbb\")",
+                "lengthOfLongestSubstring(\"aaaaaa\")",
+                "lengthOfLongestSubstring(\"abcde\")"
             ],
             "body": {
                 "javascript": [
@@ -2304,18 +2230,6 @@
                     "?>"
                 ]
             },
-            "readOnlyMap": {
-                "javascript": 3,
-                "python": 3,
-                "java": 6,
-                "c": 6,
-                "cpp": 6,
-                "csharp": 6,
-                "go": 5,
-                "ruby": 3,
-                "swift": 3,
-                "php": 4
-            },
             "answer": [3, 1, 5]
         },
         {
@@ -2326,13 +2240,19 @@
             "problem_statement": [
                 "Problem:",
                 "",
-                "Given a 2D matrix, rotate it clockwise.",
+                "Given a 2D matrix, rotate it clockwise. Print the results of test cases to stdout.",
                 "",
                 "Examples:",
                 "",
-                "rotateMatrix([[1, 2, 3], [4, 5, 6], [7, 8, 9]]) ➞ [[7, 4, 1], [8, 5, 2], [9, 6, 3]]",
-                "rotateMatrix([[1, 2], [3, 4]]) ➞ [[3, 1], [4, 2]]",
-                "rotateMatrix([[1]]) ➞ [[1]]"
+                "rotateMatrix([[1, 1, 1], [7, 9, 5], [2, 3, 1]]) ➞ [[2, 7, 1], [3, 9, 1], [1, 5, 1]]",
+                "rotateMatrix([[7, 11], [22, 0]]) ➞ [[22, 7], [0, 11]]",
+                "rotateMatrix([[10, 20, 30], [30, 20, 10]) ➞ [[30, 10], [20, 20], [10, 30]]",
+                "",
+                "Test Cases:",
+                "",
+                "rotateMatrix([[1, 2, 3], [4, 5, 6], [7, 8, 9]])",
+                "rotateMatrix([[1, 2], [3, 4]])",
+                "rotateMatrix([[1]])"
             ],
             "body": {
                 "javascript": [
@@ -2441,17 +2361,6 @@
                     "print(rotateMatrix([[1]]))"
                 ]
             },
-            "readOnlyMap": {
-                "javascript": 3,
-                "python": 3,
-                "java": 6,
-                "c": 9,
-                "cpp": 9,
-                "csharp": 6,
-                "go": 8,
-                "ruby": 3,
-                "swift": 3
-            },
             "answer": ["[[7, 4, 1], [8, 5, 2], [9, 6, 3]]", "[[3, 1], [4, 2]]", "[[1]]"]
         },
         {
@@ -2462,13 +2371,19 @@
             "problem_statement": [
                 "Problem:",
                 "",
-                "Create a function that takes a Tic-tac-toe board and returns \"X\" if the X's are placed in a way that there are three X's in a row or returns \"O\" if there are three O's in a row. If neither is true, return \"Tie\".",
+                "Create a function that takes a Tic-tac-toe board and returns \"X\" if the X's are placed in a way that there are three X's in a row or returns \"O\" if there are three O's in a row. If neither is true, return \"Tie\". Print the results of test cases to stdout.",
                 "",
                 "Examples:",
                 "",
-                "ticTacToe([[\"X\", \"O\", \"X\"], [\"O\", \"X\", \"O\"], [\"O\", \"X\", \"X\"]]) ➞ \"X\"",
-                "ticTacToe([[\"O\", \"O\", \"O\"], [\"O\", \"X\", \"\"], [\"X\", \"X\", \"X\"]]) ➞ \"O\"",
-                "ticTacToe([[\"X\", \"X\", \"O\"], [\"O\", \"O\", \"\"], [\"X\", \"X\", \"O\"]]) ➞ \"Tie\""
+                "ticTacToe([[\"X\", \"O\", \"X\"], [\"X\", \"X\", \"X\"], [\"O\", \"X\", \"O\"]]) ➞ \"X\"",
+                "ticTacToe([[\"O\", \"X\", \"O\"], [\"O\", \"O\", \"O\"], [\"X\", \"O\", \"X\"]]) ➞ \"O\"",
+                "ticTacToe([[\"X\", \"O\", \"X\"], [\"O\", \"X\", \"O\"], [\"X\", \"O\", \"X\"]]) ➞ \"Tie\"",
+                "",
+                "Test Cases:",
+                "",
+                "ticTacToe([[\"X\", \"O\", \"X\"], [\"O\", \"X\", \"O\"], [\"O\", \"X\", \"X\"]])",
+                "ticTacToe([[\"O\", \"O\", \"O\"], [\"O\", \"X\", \"\"], [\"X\", \"X\", \"X\"]])",
+                "ticTacToe([[\"X\", \"X\", \"O\"], [\"O\", \"O\", \"\"], [\"X\", \"X\", \"O\"]])"
             ],
             "body": {
                 "javascript": [
@@ -2580,17 +2495,6 @@
                     "print(ticTacToe(board: [[\"O\", \"O\", \"O\"], [\"O\", \"X\", \"\"], [\"X\", \"X\", \"X\"]]));",
                     "print(ticTacToe(board: [[\"X\", \"X\", \"O\"], [\"O\", \"O\", \"\"], [\"X\", \"X\", \"O\"]]));"
                 ]
-            },
-            "readOnlyMap": {
-                "javascript": 3,
-                "python": 3,
-                "java": 6,
-                "c": 8,
-                "cpp": 8,
-                "csharp": 6,
-                "go": 8,
-                "ruby": 3,
-                "swift": 3
             },
             "answer": ["\"X\"", "\"O\"", "\"Tie\""]
         }
