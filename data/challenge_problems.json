@@ -134,6 +134,17 @@
                     "?>"
                 ]
             },
+            "readOnlyMap": {
+                "javascript": 3,
+                "python": 3,
+                "java": 6,
+                "c": 6,
+                "cpp": 6,
+                "csharp": 6,
+                "ruby": 3,
+                "swift": 3,
+                "php": 4
+            },
             "answer": ["5", "-9", "10"]
         },
         {
@@ -269,6 +280,18 @@
                     "echo reverse(\"Edabit is really helpful!\");",
                     "?>"
                 ]
+            },
+            "readOnlyMap": {
+                "javascript": 3,
+                "python": 3,
+                "java": 6,
+                "c": 6,
+                "cpp": 6,
+                "csharp": 6,
+                "go": 4,
+                "ruby": 3,
+                "swift": 3,
+                "php": 4
             },
             "answer": ["olleh", ".xof nworb kciuq ehT", "!lufpleh yllaer si tibadE"]
         },
@@ -406,6 +429,18 @@
                     "?>"
                 ]
             },
+            "readOnlyMap": {
+                "javascript": 3,
+                "python": 3,
+                "java": 6,
+                "c": 6,
+                "cpp": 6,
+                "csharp": 6,
+                "go": 4,
+                "ruby": 3,
+                "swift": 3,
+                "php": 4
+            },
             "answer": ["true", "true", "false"]
         },
         {
@@ -541,6 +576,18 @@
                     "echo nextNumber(-3);",
                     "?>"
                 ]
+            },
+            "readOnlyMap": {
+                "javascript": 3,
+                "python": 3,
+                "java": 6,
+                "c": 6,
+                "cpp": 6,
+                "csharp": 6,
+                "go": 4,
+                "ruby": 3,
+                "swift": 3,
+                "php": 4
             },
             "answer": ["1", "10", "-2"]
         },
@@ -678,6 +725,18 @@
                     "?>"
                 ]
             },
+            "readOnlyMap": {
+                "javascript": 3,
+                "python": 3,
+                "java": 6,
+                "c": 6,
+                "cpp": 6,
+                "csharp": 6,
+                "go": 4,
+                "ruby": 3,
+                "swift": 3,
+                "php": 4
+            },
             "answer": ["300", "180", "120"]
         },
         {
@@ -814,6 +873,18 @@
                     "?>"
                 ]
             },
+            "readOnlyMap": {
+                "javascript": 3,
+                "python": 3,
+                "java": 6,
+                "c": 6,
+                "cpp": 6,
+                "csharp": 6,
+                "go": 4,
+                "ruby": 3,
+                "swift": 3,
+                "php": 4
+            },
             "answer": ["26", "60", "22"]
         },
         {
@@ -949,6 +1020,18 @@
                     "echo lessThan100(3, 77);",
                     "?>"
                 ]
+            },
+            "readOnlyMap": {
+                "javascript": 3,
+                "python": 3,
+                "java": 6,
+                "c": 6,
+                "cpp": 6,
+                "csharp": 6,
+                "go": 4,
+                "ruby": 3,
+                "swift": 3,
+                "php": 4
             },
             "answer": ["true", "false", "true"]
         },
@@ -1213,6 +1296,16 @@
                     "}"
                 ]
             },
+            "readOnlyMap": {
+                "javascript": 3,
+                "python": 3,
+                "java": 15,
+                "c": 27,
+                "cpp": 27,
+                "csharp": 32,
+                "go": 25,
+                "ruby": 23
+            },
             "answer": ["[[\"a\", \"1\"], [\"b\", \"2\"]]", "[[\"shrimp\", \"15\"], [\"tots\", \"12\"]]", "[]"]
         },
         {
@@ -1337,14 +1430,28 @@
                     "print(countVowels(\"Prediction\"))"
                 ],
                 "php": [
+                    "<?php",
                     "function countVowels($str) {",
                     "    // Your code here",
                     "}",
                     "",
                     "echo countVowels(\"Celebration\");",
                     "echo countVowels(\"Palm\");",
-                    "echo countVowels(\"Prediction\");"
+                    "echo countVowels(\"Prediction\");",
+                    "?>"
                 ]
+            },
+            "readOnlyMap": {
+                "javascript": 3,
+                "python": 3,
+                "java": 6,
+                "c": 6,
+                "cpp": 6,
+                "csharp": 6,
+                "go": 5,
+                "ruby": 3,
+                "swift": 3,
+                "php": 4
             },
             "answer": ["5", "1", "4"]
         },
@@ -1470,14 +1577,28 @@
                     "print(secondLargest([54, 23, 11, 17, 10]))"
                 ],
                 "php": [
+                    "<?php",
                     "function secondLargest($arr) {",
                     "    // Your code here",
                     "}",
                     "",
                     "echo secondLargest([10, 40, 30, 20, 50]);",
                     "echo secondLargest([25, 143, 89, 13, 105]);",
-                    "echo secondLargest([54, 23, 11, 17, 10]);"
+                    "echo secondLargest([54, 23, 11, 17, 10]);",
+                    "?>"
                 ]
+            },
+            "readOnlyMap": {
+                "javascript": 3,
+                "python": 3,
+                "java": 6,
+                "c": 6,
+                "cpp": 6,
+                "csharp": 6,
+                "go": 5,
+                "ruby": 3,
+                "swift": 3,
+                "php": 4
             },
             "answer": ["40", "105", "23"]
         },
@@ -1601,14 +1722,28 @@
                     "print(bubbleSort([1, 2, 3, 4]))"
                 ],
                 "php": [
+                    "<?php",
                     "function bubbleSort($arr) {",
                     "    // Your code here",
                     "}",
                     "",
                     "echo bubbleSort([5, 2, 7, 1]);",
                     "echo bubbleSort([10, 5, 20, 8]);",
-                    "echo bubbleSort([1, 2, 3, 4]);"
+                    "echo bubbleSort([1, 2, 3, 4]);",
+                    "?>"
                 ]
+            },
+            "readOnlyMap": {
+                "javascript": 3,
+                "python": 3,
+                "java": 6,
+                "c": 6,
+                "cpp": 6,
+                "csharp": 6,
+                "go": 5,
+                "ruby": 3,
+                "swift": 3,
+                "php": 4
             },
             "answer": ["[1, 2, 5, 7]", "[5, 8, 10, 20]", "[1, 2, 3, 4]"]
         },
@@ -1732,14 +1867,28 @@
                     "print(arrayOfMultiples(17, 6))"
                 ],
                 "php": [
+                    "<?php",
                     "function arrayOfMultiples($num, $length) {",
                     "    // Your code here",
                     "}",
                     "",
                     "echo arrayOfMultiples(7, 5);",
                     "echo arrayOfMultiples(12, 10);",
-                    "echo arrayOfMultiples(17, 6);"
+                    "echo arrayOfMultiples(17, 6);",
+                    "?>"
                 ]
+            },
+            "readOnlyMap": {
+                "javascript": 3,
+                "python": 3,
+                "java": 6,
+                "c": 6,
+                "cpp": 6,
+                "csharp": 6,
+                "go": 5,
+                "ruby": 3,
+                "swift": 3,
+                "php": 4
             },
             "answer": ["[7, 14, 21, 28, 35]", "[12, 24, 36, 48, 60, 72, 84, 96, 108, 120]", "[17, 34, 51, 68, 85, 102]"]
         },
@@ -1866,6 +2015,17 @@
                     "print(findLargestNums([[1111, 2222], [3333], [4444, 5555, 6666]]))"
                 ]
             },
+            "readOnlyMap": {
+                "javascript": 3,
+                "python": 3,
+                "java": 6,
+                "c": 9,
+                "cpp": 6,
+                "csharp": 6,
+                "go": 5,
+                "ruby": 3,
+                "swift": 3
+            },
             "answer": ["[7, 90, 2]", "[600, 1001]", "[2222, 3333, 6666]"]
         },
         {
@@ -1988,14 +2148,28 @@
                     "print(squareDigits(3212))"
                 ],
                 "php": [
+                    "<?php",
                     "function squareDigits($num) {",
                     "    // Your code here",
                     "}",
                     "",
                     "echo squareDigits(9119);",
                     "echo squareDigits(2483);",
-                    "echo squareDigits(3212);"
+                    "echo squareDigits(3212);",
+                    "?>"
                 ]
+            },
+            "readOnlyMap": {
+                "javascript": 3,
+                "python": 3,
+                "java": 6,
+                "c": 6,
+                "cpp": 6,
+                "csharp": 6,
+                "go": 5,
+                "ruby": 3,
+                "swift": 3,
+                "php": 4
             },
             "answer": ["811181", "416649", "9414"]
         },
@@ -2119,14 +2293,28 @@
                     "print(lengthOfLongestSubstring(\"abcde\"))"
                 ],
                 "php": [
+                    "<?php",
                     "function lengthOfLongestSubstring($s) {",
                     "    // Your code here",
                     "}",
                     "",
                     "echo lengthOfLongestSubstring(\"abcabcbb\");",
                     "echo lengthOfLongestSubstring(\"aaaaaa\");",
-                    "echo lengthOfLongestSubstring(\"abcde\");"
+                    "echo lengthOfLongestSubstring(\"abcde\");",
+                    "?>"
                 ]
+            },
+            "readOnlyMap": {
+                "javascript": 3,
+                "python": 3,
+                "java": 6,
+                "c": 6,
+                "cpp": 6,
+                "csharp": 6,
+                "go": 5,
+                "ruby": 3,
+                "swift": 3,
+                "php": 4
             },
             "answer": [3, 1, 5]
         },
@@ -2252,6 +2440,17 @@
                     "print(rotateMatrix([[1, 2], [3, 4]]))",
                     "print(rotateMatrix([[1]]))"
                 ]
+            },
+            "readOnlyMap": {
+                "javascript": 3,
+                "python": 3,
+                "java": 6,
+                "c": 9,
+                "cpp": 9,
+                "csharp": 6,
+                "go": 8,
+                "ruby": 3,
+                "swift": 3
             },
             "answer": ["[[7, 4, 1], [8, 5, 2], [9, 6, 3]]", "[[3, 1], [4, 2]]", "[[1]]"]
         },
@@ -2382,6 +2581,17 @@
                     "print(ticTacToe(board: [[\"X\", \"X\", \"O\"], [\"O\", \"O\", \"\"], [\"X\", \"X\", \"O\"]]));"
                 ]
             },
+            "readOnlyMap": {
+                "javascript": 3,
+                "python": 3,
+                "java": 6,
+                "c": 8,
+                "cpp": 8,
+                "csharp": 6,
+                "go": 8,
+                "ruby": 3,
+                "swift": 3
+            },
             "answer": ["\"X\"", "\"O\"", "\"Tie\""]
         }
     ],
@@ -2406,16 +2616,5 @@
         "ruby": "=end",
         "swift": "*/",
         "php": "*/"
-    },
-    "readOnly": {
-        "javascript": 3,
-        "python": 3,
-        "java": 6,
-        "c": 6,
-        "cpp": 6,
-        "csharp": 6,
-        "ruby": 3,
-        "swift": 3,
-        "php": 4
     }
 }
