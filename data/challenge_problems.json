@@ -1154,7 +1154,7 @@
                     ],
                     "explanation": [
                         "The addition operator (+) is used to add the two numbers",
-                        "The comparison operator (<) is used to check if the sum is less than 100",
+                        "The comparison operator (<) is used to check if the sum is less than 100"
                     ]
                 }
             },
