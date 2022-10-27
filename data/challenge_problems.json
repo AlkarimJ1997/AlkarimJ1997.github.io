@@ -141,26 +141,15 @@
                 ]
             },
             "solutions": {
-                "javascript": {
-                    "solution": [
-                        "const addition = (a, b) => a + b"
-                    ],
-                    "explanation": [
+                "javascript": [
                         "The addition operator (+) adds two numbers together",
                         "ES6 Arrow Syntax is used to define the function",
                         "The return keyword can be omitted for single line arrow functions"
-                    ]
-                },
-                "python": {
-                    "solution": [
-                        "def addition(a, b):",
-                        "    return a + b"
                     ],
-                    "explanation": [
+                "python": [
                         "The addition operator (+) adds two numbers together",
                         "The return keyword is used to return the result of the function"
                     ]
-                }
             },
             "answer": ["-18", "0", "-10"]
         },
@@ -305,31 +294,18 @@
                 ]
             },
             "solutions": {
-                "javascript": {
-                    "solution": [
-                        "const reverse = (str) => {",
-                        "    return str.split('').reverse().join('');",
-                        "}"
-                    ],
-                    "explanation": [
+                "javascript": [
                         "The split() method splits a string into an array of substrings by a delimiter",
                         "The reverse() method reverses the order of the elements in an array",
                         "The join() method joins all elements of an array into a string by a delimiter"
-                    ]
-                },
-                "python": {
-                    "solution": [
-                        "def reverse(str):",
-                        "    return str[::-1]"
                     ],
-                    "explanation": [
+                "python": [
                         "All strings are lists of characters in Python",
                         "List slicing is a technique to access a subset of elements in a list",
                         "The syntax is [start:stop:step]",
                         "If left empty, start defaults to 0, stop defaults to the length of the list, and step defaults to 1",
                         "[::-1] means traverse from the end of the list to the beginning, one element at a time"
                     ]
-                }
             },
             "answer": ["olleh", ".xof nworb kciuq ehT", "!lufpleh yllaer si tibadE"]
         },
@@ -474,27 +450,16 @@
                 ]
             },
             "solutions": {
-                "javascript": {
-                    "solution": [
-                        "const divisibleByFive = (n) => n % 5 === 0"
-                    ],
-                    "explanation": [
+                "javascript": [
                         "The modulo operator (%) returns the remainder of a division operation",
                         "If the remainder is 0, the number is evenly divisible by 5",
                         "ES6 Arrow Syntax is used to define the function",
                         "The return keyword can be omitted for single line arrow functions"
-                    ]
-                },
-                "python": {
-                    "solution": [
-                        "def divisibleByFive(n):",
-                        "    return n % 5 == 0"
                     ],
-                    "explanation": [
+                "python": [
                         "The modulo operator (%) returns the remainder of a division operation",
                         "If the remainder is 0, the number is evenly divisible by 5"
                     ]
-                }
             },
             "answer": ["true", "true", "false"]
         },
@@ -639,25 +604,14 @@
                 ]
             },
             "solutions": {
-                "javascript": {
-                    "solution": [
-                        "const nextNumber = (n) => n + 1"
-                    ],
-                    "explanation": [
+                "javascript": [
                         "The addition operator (+) is used to increment a number by 1",
                         "ES6 Arrow Syntax is used to define the function",
                         "The return keyword can be omitted for single line arrow functions"
-                    ]
-                },
-                "python": {
-                    "solution": [
-                        "def nextNumber(n):",
-                        "    return n + 1"
                     ],
-                    "explanation": [
+                "python": [
                         "The addition operator (+) is used to increment a number by 1"
                     ]
-                }
             },
             "answer": ["1", "10", "-2"]
         },
@@ -802,29 +756,17 @@
                 ]
             },
             "solutions": {
-                "javascript": {
-                    "solution": [
-                        "const convert = (minutes) => minutes > 0 ? minutes * 60 : 0"
-                    ],
-                    "explanation": [
+                "javascript": [
                         "The ternary operator (?:) is used to check if minutes is greater than 0",
                         "If minutes is greater than 0, the function returns minutes multiplied by 60",
                         "If minutes is less than or equal to 0, the function returns 0",
-                        "ES6 Arrow Syntax is used to define the function",
-                        "The return keyword can be omitted for single line arrow functions"
-                    ]
-                },
-                "python": {
-                    "solution": [
-                        "def convert(minutes):",
-                        "    return minutes * 60 if minutes > 0 else 0"
+                        "ES6 Arrow Syntax is used to define the function"
                     ],
-                    "explanation": [
+                "python": [
                         "The ternary operator (if condition else) is used to check if minutes is greater than 0",
                         "If minutes is greater than 0, the function returns minutes multiplied by 60",
                         "If minutes is less than or equal to 0, the function returns 0"
                     ]
-                }
             },
             "answer": ["300", "180", "0"]
         },
@@ -969,29 +911,16 @@
                 ]
             },
             "solutions": {
-                "javascript": {
-                    "solution": [
-                        "const findPerimeter = (length, width) => {",
-                        "    return (length + width) * 2",
-                        "}"
+                "javascript": [
+                        "The perimeter of a rectangle is the sum of the lengths of all four sides",
+                        "This can be simplified to the sum of the length and width multiplied by 2",
+                        "The addition operator (+) and multiplication operator (*) are used to get the desired result"
                     ],
-                    "explanation": [
+                "python": [
                         "The perimeter of a rectangle is the sum of the lengths of all four sides",
                         "This can be simplified to the sum of the length and width multiplied by 2",
                         "The addition operator (+) and multiplication operator (*) are used to get the desired result"
                     ]
-                },
-                "python": {
-                    "solution": [
-                        "def findPerimeter(length, width):",
-                        "    return (length + width) * 2"
-                    ],
-                    "explanation": [
-                        "The perimeter of a rectangle is the sum of the lengths of all four sides",
-                        "This can be simplified to the sum of the length and width multiplied by 2",
-                        "The addition operator (+) and multiplication operator (*) are used to get the desired result"
-                    ]
-                }
             },
             "answer": ["26", "60", "22"]
         },
@@ -1136,27 +1065,16 @@
                 ]
             },
             "solutions": {
-                "javascript": {
-                    "solution": [
-                        "const lessThan100 = (a, b) => a + b < 100"
-                    ],
-                    "explanation": [
+                "javascript": [
                         "The addition operator (+) is used to add the two numbers",
                         "The comparison operator (<) is used to check if the sum is less than 100",
                         "ES6 Arrow Syntax is used to define the function",
                         "The return keyword can be omitted for single line arrow functions"
-                    ]
-                },
-                "python": {
-                    "solution": [
-                        "def lessThan100(a, b):",
-                        "    return a + b < 100"
                     ],
-                    "explanation": [
+                "python": [
                         "The addition operator (+) is used to add the two numbers",
                         "The comparison operator (<) is used to check if the sum is less than 100"
                     ]
-                }
             },
             "answer": ["true", "false", "true"]
         },
@@ -1428,29 +1346,18 @@
                 ]
             },
             "solutions": {
-                "javascript": {
-                    "solution": [
-                        "const toArray = obj => Object.entries(obj)"
-                    ],
-                    "explanation": [
+                "javascript": [
                         "The Object.entries() method takes an object and returns an array of arrays",
                         "Each subarray contains a key and a value from the object",
                         "ES6 Arrow Syntax is used to define the function",
                         "The return keyword can be omitted for single line arrow functions"
-                    ]
-                },
-                "python": {
-                    "solution": [
-                        "def toArray(obj):",
-                        "    return [[key, obj[key]] for key in obj]"
                     ],
-                    "explanation": [
+                "python": [
                         "A list comprehension is used to create a new list",
                         "The for loop iterates over the keys in the object",
                         "Each key is used to access the value in the object",
                         "The key and value are added to a new subarray, which is then added to the new list"
                     ]
-                }
             },
             "answer": ["[[\"a\", \"1\"], [\"b\", \"2\"]]", "[[\"shrimp\", \"15\"], [\"tots\", \"12\"]]", "[]"]
         },
