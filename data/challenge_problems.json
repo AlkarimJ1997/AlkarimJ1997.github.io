@@ -140,7 +140,7 @@
                     "?>"
                 ]
             },
-            "solutions": {
+            "explanations": {
                 "javascript": [
                         "The addition operator (+) adds two numbers together",
                         "ES6 Arrow Syntax is used to define the function",
@@ -293,7 +293,7 @@
                     "?>"
                 ]
             },
-            "solutions": {
+            "explanations": {
                 "javascript": [
                         "The split() method splits a string into an array of substrings by a delimiter",
                         "The reverse() method reverses the order of the elements in an array",
@@ -449,7 +449,7 @@
                     "?>"
                 ]
             },
-            "solutions": {
+            "explanations": {
                 "javascript": [
                         "The modulo operator (%) returns the remainder of a division operation",
                         "If the remainder is 0, the number is evenly divisible by 5",
@@ -603,7 +603,7 @@
                     "?>"
                 ]
             },
-            "solutions": {
+            "explanations": {
                 "javascript": [
                         "The addition operator (+) is used to increment a number by 1",
                         "ES6 Arrow Syntax is used to define the function",
@@ -755,7 +755,7 @@
                     "?>"
                 ]
             },
-            "solutions": {
+            "explanations": {
                 "javascript": [
                         "The ternary operator (?:) is used to check if minutes is greater than 0",
                         "If minutes is greater than 0, the function returns minutes multiplied by 60",
@@ -910,7 +910,7 @@
                     "?>"
                 ]
             },
-            "solutions": {
+            "explanations": {
                 "javascript": [
                         "The perimeter of a rectangle is the sum of the lengths of all four sides",
                         "This can be simplified to the sum of the length and width multiplied by 2",
@@ -1064,7 +1064,7 @@
                     "?>"
                 ]
             },
-            "solutions": {
+            "explanations": {
                 "javascript": [
                         "The addition operator (+) is used to add the two numbers",
                         "The comparison operator (<) is used to check if the sum is less than 100",
@@ -1345,7 +1345,7 @@
                     "}"
                 ]
             },
-            "solutions": {
+            "explanations": {
                 "javascript": [
                         "The Object.entries() method takes an object and returns an array of arrays",
                         "Each subarray contains a key and a value from the object",
@@ -1356,7 +1356,7 @@
                         "A list comprehension is used to create a new list",
                         "The for loop iterates over the keys in the object",
                         "Each key is used to access the value in the object",
-                        "The key and value are added to a new subarray, which is then added to the new list"
+                        "The key and value are added to a new sublist, which is then added to the new list"
                     ]
             },
             "answer": ["[[\"a\", \"1\"], [\"b\", \"2\"]]", "[[\"shrimp\", \"15\"], [\"tots\", \"12\"]]", "[]"]
@@ -1500,6 +1500,23 @@
                     "?>"
                 ]
             },
+            "explanations": {
+                "javascript": [
+                        "A count variable is made to track of the number of vowels in the string",
+                        "A vowels array is used to store the vowels that we are looking for",
+                        "The for loop iterates through the string and checks if the current character is a vowel",
+                        "If it is, the count variable is incremented by 1",
+                        "The Array.prototype.includes() method checks if a given element is present in the array",
+                        "The count variable is returned at the end"
+                    ],
+                "python": [
+                        "A count variable is made to track of the number of vowels in the string",
+                        "A vowels list is used to store the vowels that we are looking for",
+                        "The for loop iterates through the string and checks if the current character is a vowel",
+                        "If it is, the count variable is incremented by 1",
+                        "The count variable is returned at the end"
+                    ]
+            },
             "answer": ["5", "1", "4"]
         },
         {
@@ -1641,6 +1658,24 @@
                     "?>"
                 ]
             },
+            "explanations": {
+                "javascript": [
+                        "Two variables are made to store the largest and second largest numbers",
+                        "The for loop iterates through the array and checks if the current number is greater than the largest number",
+                        "If it is, the previous largest number becomes the second largest and the current number becomes the largest",
+                        "If it is not, the current number is checked against the second largest number",
+                        "If it is greater than the second largest number, it becomes the second largest number",
+                        "The second largest number is returned"
+                    ],
+                "python": [
+                        "Two variables are made to store the largest and second largest numbers",
+                        "The for loop iterates through the list and checks if the current number is greater than the largest number",
+                        "If it is, the previous largest number becomes the second largest and the current number becomes the largest",
+                        "If it is not, the current number is checked against the second largest number",
+                        "If it is greater than the second largest number, it becomes the second largest number",
+                        "The second largest number is returned"
+                    ]
+            },
             "answer": ["40", "105", "23"]
         },
         {
@@ -1779,6 +1814,23 @@
                     "echo bubbleSort([1, 2, 3, 4]);",
                     "?>"
                 ]
+            },
+            "explanations": {
+                "javascript": [
+                        "A variable is used to track whether any swaps were made in the last iteration",
+                        "At the start of each iteration, swapped is set to false",
+                        "If the number at the next index is smaller than the current number, the two numbers are swapped",
+                        "If a swap occurs, swapped is set to true and the loop continues",
+                        "If no swaps were made, the array is sorted and the loop ends"
+                    ],
+                "python": [
+                        "A variable is used to track whether any swaps were made in the last iteration",
+                        "At the start of each iteration, swapped is set to False",
+                        "The for loop only iterates up to the second to last element because the next element is compared to the current element",
+                        "If the number at the next index is smaller than the current number, the two numbers are swapped",
+                        "If a swap occurs, swapped is set to True and the loop continues",
+                        "If no swaps were made, the list is sorted and the loop ends"
+                    ]
             },
             "answer": ["[1, 2, 5, 7]", "[5, 8, 10, 20]", "[1, 2, 3, 4]"]
         },
@@ -1919,6 +1971,20 @@
                     "?>"
                 ]
             },
+            "explanations": {
+                "javascript": [
+                        "An empty array is created to store the multiples of the given number",
+                        "The for loop iterates from 1 to the length given",
+                        "The number is multiplied by the current iteration to get the multiple",
+                        "The multiples of the given number are pushed to the result array"
+                    ],
+                "python": [
+                        "An empty list is created to store the multiples of the given number",
+                        "The for loop iterates from 1 to the length given",
+                        "The number is multiplied by the current iteration to get the multiple",
+                        "The multiples of the given number are pushed to the result list"
+                    ]
+            },
             "answer": ["[7, 14, 21, 28, 35]", "[12, 24, 36, 48, 60, 72, 84, 96, 108, 120]", "[17, 34, 51, 68, 85, 102]"]
         },
         {
@@ -2049,6 +2115,18 @@
                     "print(findLargestNums([[300, 200, 600, 150], [1000, 1001, 857, 1]]))",
                     "print(findLargestNums([[1111, 2222], [3333], [4444, 5555, 6666]]))"
                 ]
+            },
+            "explanations": {
+                "javascript": [
+                        "Array.prototype.map() calls a given function on every element in the array and returns a new array",
+                        "The spread operator (...) expands the array into individual elements",
+                        "Math.max() takes any number of arguments and returns the largest number"
+                    ],
+                "python": [
+                        "A list comprehension is used to create a new list",
+                        "The for loop iterates through every sub-list in the list",
+                        "The max() function returns the largest number in a list"
+                    ]
             },
             "answer": ["[7, 90, 2]", "[600, 1001]", "[2222, 3333, 6666]"]
         },
@@ -2189,6 +2267,24 @@
                     "?>"
                 ]
             },
+            "explanations": {
+                "javascript": [
+                        "Number.prototype.toString() converts a number to a string",
+                        "String.prototype.split() splits a string into an array of substrings by a separator",
+                        "Array.prototype.map() calls a given function on every element in the array and returns a new array",
+                        "Array.prototype.join() joins all elements of an array into a string",
+                        "Number() is a primitive wrapper object that converts a string to a number"
+                    ],
+                "python": [
+                        "str() converts a number to a string",
+                        "Remember that all strings are iterable in Python",
+                        "The for loop iterates through each character in the string",
+                        "int() converts a string to an integer",
+                        "** is the exponent operator in Python",
+                        "A list comprehension is used to create a list of the squared digits",
+                        "str.join() joins all elements of an iterable into a string"
+                    ]
+            },
             "answer": ["811181", "416649", "9414"]
         },
         {
@@ -2204,8 +2300,8 @@
                 "Examples:",
                 "",
                 "lengthOfLongestSubstring(\"EdiCode\") ➞ 5",
-                "lengthOfLongestSubstring(\"Hello World\") ➞ 7",
-                "lengthOfLongestSubstring(\"Test\") ➞ 3",
+                "lengthOfLongestSubstring(\"Hello World\") ➞ 6",
+                "lengthOfLongestSubstring(\"Test\") ➞ 4",
                 "",
                 "Test Cases:",
                 "",
@@ -2328,138 +2424,178 @@
                     "?>"
                 ]
             },
+            "solutions": {
+                "javascript": [
+                        "A sliding window is used to track the longest substring without repeating characters",
+                        "Variables are used to track the longest substring and the current substring",
+                        "A hash map object is used to track the last seen index of each character",
+                        "The for loop iterates through the string",
+                        "If the character has not been seen, the current substring is incremented",
+                        "If the character has been seen, the current substring is set to the minimum of the current substring and the distance between the current index and the last seen index",
+                        "The last seen index of the character is updated",
+                        "The longest substring is set to the maximum of the longest substring and the current substring"
+                    ],
+                "python": [
+                        "A sliding window is used to track the longest substring without repeating characters",
+                        "Variables are used to track the longest substring and the current substring",
+                        "A hash map dictionary is used to track the last seen index of each character",
+                        "The for loop iterates through the string",
+                        "If the character has not been seen, the current substring is incremented",
+                        "If the character has been seen, the current substring is set to the minimum of the current substring and the distance between the current index and the last seen index",
+                        "The last seen index of the character is updated",
+                        "The longest substring is set to the maximum of the longest substring and the current substring"
+                    ]
+            },
             "answer": [3, 1, 5]
         },
         {
             "id": 16,
-            "title": "Rotate 2D Matrix Clockwise",
+            "title": "Median of Two Sorted Arrays",
             "difficulty": "Hard",
             "languages": ["javascript", "python", "java", "c", "cpp", "csharp", "go", "ruby", "swift"],
             "problem_statement": [
                 "Problem:",
                 "",
-                "Given a 2D matrix, rotate it clockwise. Print the results of test cases to stdout.",
+                "Given two sorted arrays nums1 and nums2, return the median of the two sorted arrays to 1 decimal place. Print the results of test cases to stdout.",
                 "",
                 "Examples:",
                 "",
-                "rotateMatrix([[1, 1, 1], [7, 9, 5], [2, 3, 1]]) ➞ [[2, 7, 1], [3, 9, 1], [1, 5, 1]]",
-                "rotateMatrix([[7, 11], [22, 0]]) ➞ [[22, 7], [0, 11]]",
-                "rotateMatrix([[10, 20, 30], [30, 20, 10]) ➞ [[30, 10], [20, 20], [10, 30]]",
+                "findMedianTwoSortedArrays([1, 3], [2]) -> 2.0",
+                "findMedianTwoSortedArrays([1, 2], [3, 4]) -> 2.5",
+                "findMedianTwoSortedArrays([0, 0], [0, 0]) -> 0.0",
                 "",
                 "Test Cases:",
                 "",
-                "rotateMatrix([[1, 2, 3], [4, 5, 6], [7, 8, 9]])",
-                "rotateMatrix([[1, 2], [3, 4]])",
-                "rotateMatrix([[1]])"
+                "findMedianTwoSortedArrays([1, 7], [5, 7])",
+                "findMedianTwoSortedArrays([1, 1], [1, 1])",
+                "findMedianTwoSortedArrays([3, 15], [54, 27])"
             ],
             "body": {
                 "javascript": [
-                    "const rotateMatrix = (matrix) => {",
+                    "const findMedianTwoSortedArrays = (nums1, nums2) => {",
                     "    // Your code here",
                     "}",
                     "",
-                    "console.log(rotateMatrix([[1, 2, 3], [4, 5, 6], [7, 8, 9]]));",
-                    "console.log(rotateMatrix([[1, 2], [3, 4]]));",
-                    "console.log(rotateMatrix([[1]]));"
+                    "console.log(findMedianTwoSortedArrays([1, 7], [5, 7]));",
+                    "console.log(findMedianTwoSortedArrays([1, 1], [1, 1]));",
+                    "console.log(findMedianTwoSortedArrays([3, 15], [54, 27]));"
                 ],
                 "python": [
-                    "def rotate_matrix(matrix):",
+                    "def findMedianTwoSortedArrays(nums1, nums2):",
                     "    # Your code here",
                     "",
-                    "print(rotate_matrix([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))",
-                    "print(rotate_matrix([[1, 2], [3, 4]]))",
-                    "print(rotate_matrix([[1]]))"
+                    "print(findMedianTwoSortedArrays([1, 7], [5, 7]))",
+                    "print(findMedianTwoSortedArrays([1, 1], [1, 1]))",
+                    "print(findMedianTwoSortedArrays([3, 15], [54, 27]))"
                 ],
                 "java": [
                     "public class Program {",
-                    "    public static int[][] rotateMatrix(int[][] matrix) {",
+                    "    public static double findMedianTwoSortedArrays(int[] nums1, int[] nums2) {",
                     "        // Your code here",
                     "    }",
                     "",
                     "    public static void main(String[] args) {",
-                    "        System.out.println(rotateMatrix(new int[][] {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}));",
-                    "        System.out.println(rotateMatrix(new int[][] {{1, 2}, {3, 4}}));",
-                    "        System.out.println(rotateMatrix(new int[][] {{1}}));",
+                    "        System.out.println(findMedianTwoSortedArrays(new int[]{1, 7}, new int[]{5, 7}));",
+                    "        System.out.println(findMedianTwoSortedArrays(new int[]{1, 1}, new int[]{1, 1}));",
+                    "        System.out.println(findMedianTwoSortedArrays(new int[]{3, 15}, new int[]{54, 27}));",
                     "    }",
                     "}"
                 ],
                 "c": [
-                    "int** rotateMatrix(int** matrix, int matrixRowSize, int matrixColSize) {",
+                    "double findMedianTwoSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size) {",
                     "    // Your code here",
                     "}",
                     "",
                     "int main() {",
-                    "    int matrix1[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};",
-                    "    int matrix2[2][2] = {{1, 2}, {3, 4}};",
-                    "    int matrix3[1][1] = {{1}};",
-                    "    printf(\"%d\", rotateMatrix(matrix1, 3, 3));",
-                    "    printf(\"%d\", rotateMatrix(matrix2, 2, 2));",
-                    "    printf(\"%d\", rotateMatrix(matrix3, 1, 1));",
+                    "    printf(\"%f\\n\", findMedianTwoSortedArrays((int[]){1, 7}, 2, (int[]){5, 7}, 2));",
+                    "    printf(\"%f\\n\", findMedianTwoSortedArrays((int[]){1, 1}, 2, (int[]){1, 1}, 2));",
+                    "    printf(\"%f\\n\", findMedianTwoSortedArrays((int[]){3, 15}, 2, (int[]){54, 27}, 2));",
                     "    return 0;",
                     "}"
                 ],
                 "cpp": [
-                    "vector<vector<int>> rotateMatrix(vector<vector<int>> matrix) {",
+                    "double findMedianTwoSortedArrays(vector<int>& nums1, vector<int>& nums2) {",
                     "    // Your code here",
                     "}",
                     "",
                     "int main() {",
-                    "    vector<vector<int>> matrix1 = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};",
-                    "    vector<vector<int>> matrix2 = {{1, 2}, {3, 4}};",
-                    "    vector<vector<int>> matrix3 = {{1}};",
-                    "    cout << rotateMatrix(matrix1);",
-                    "    cout << rotateMatrix(matrix2);",
-                    "    cout << rotateMatrix(matrix3);",
+                    "    cout << findMedianTwoSortedArrays(vector<int>{1, 7}, vector<int>{5, 7}) << endl;",
+                    "    cout << findMedianTwoSortedArrays(vector<int>{1, 1}, vector<int>{1, 1}) << endl;",
+                    "    cout << findMedianTwoSortedArrays(vector<int>{3, 15}, vector<int>{54, 27}) << endl;",
                     "    return 0;",
                     "}"
                 ],
                 "csharp": [
                     "public class Program {",
-                    "    public static int[][] rotateMatrix(int[][] matrix) {",
+                    "    public static double findMedianTwoSortedArrays(int[] nums1, int[] nums2) {",
                     "        // Your code here",
                     "    }",
                     "",
                     "    public static void Main(string[] args) {",
-                    "        Console.WriteLine(rotateMatrix(new int[][] {new int[] {1, 2, 3}, new int[] {4, 5, 6}, new int[] {7, 8, 9}}));",
-                    "        Console.WriteLine(rotateMatrix(new int[][] {new int[] {1, 2}, new int[] {3, 4}}));",
-                    "        Console.WriteLine(rotateMatrix(new int[][] {new int[] {1}}));",
+                    "        Console.WriteLine(findMedianTwoSortedArrays(new int[]{1, 7}, new int[]{5, 7}));",
+                    "        Console.WriteLine(findMedianTwoSortedArrays(new int[]{1, 1}, new int[]{1, 1}));",
+                    "        Console.WriteLine(findMedianTwoSortedArrays(new int[]{3, 15}, new int[]{54, 27}));",
                     "    }",
                     "}"
                 ],
                 "go": [
-                    "func rotateMatrix(matrix [][]int) [][]int {",
+                    "package main",
+                    "",
+                    "import (",
+                    "    \"fmt\"",
+                    ")",
+                    "",
+                    "func findMedianTwoSortedArrays(nums1 []int, nums2 []int) float64 {",
                     "    // Your code here",
                     "}",
                     "",
                     "func main() {",
-                    "    matrix1 := [][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}",
-                    "    matrix2 := [][]int{{1, 2}, {3, 4}}",
-                    "    matrix3 := [][]int{{1}}",
-                    "    fmt.Println(rotateMatrix(matrix1))",
-                    "    fmt.Println(rotateMatrix(matrix2))",
-                    "    fmt.Println(rotateMatrix(matrix3))",
+                    "    fmt.Println(findMedianTwoSortedArrays([]int{1, 7}, []int{5, 7}))",
+                    "    fmt.Println(findMedianTwoSortedArrays([]int{1, 1}, []int{1, 1}))",
+                    "    fmt.Println(findMedianTwoSortedArrays([]int{3, 15}, []int{54, 27}))",
                     "}"
                 ],
                 "ruby": [
-                    "def rotate_matrix(matrix)",
+                    "def find_median_two_sorted_arrays(nums1, nums2)",
                     "    # Your code here",
                     "end",
                     "",
-                    "puts rotate_matrix([[1, 2, 3], [4, 5, 6], [7, 8, 9]])",
-                    "puts rotate_matrix([[1, 2], [3, 4]])",
-                    "puts rotate_matrix([[1]])"
+                    "puts find_median_two_sorted_arrays([1, 7], [5, 7])",
+                    "puts find_median_two_sorted_arrays([1, 1], [1, 1])",
+                    "puts find_median_two_sorted_arrays([3, 15], [54, 27])"
                 ],
                 "swift": [
-                    "func rotateMatrix(_ matrix: [[Int]]) -> [[Int]] {",
+                    "func findMedianTwoSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {",
                     "    // Your code here",
                     "}",
                     "",
-                    "print(rotateMatrix([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))",
-                    "print(rotateMatrix([[1, 2], [3, 4]]))",
-                    "print(rotateMatrix([[1]]))"
+                    "print(findMedianTwoSortedArrays([1, 7], [5, 7]))",
+                    "print(findMedianTwoSortedArrays([1, 1], [1, 1]))",
+                    "print(findMedianTwoSortedArrays([3, 15], [54, 27]))"
                 ]
             },
-            "answer": ["[[7, 4, 1], [8, 5, 2], [9, 6, 3]]", "[[3, 1], [4, 2]]", "[[1]]"]
+            "solutions": {
+                "javascript": [
+                        "The spread operator (...) expands the arrays into individual elements",
+                        "The sort method sorts the elements in ascending order",
+                        "The middle index is calculated by dividing the length by 2 and rounding down",
+                        "Math.floor() rounds down to the nearest integer",
+                        "The isEven variable is true if the length of the new, merged array is even",
+                        "If the length is even, the median is the average of the two middle elements",
+                        "If the length is odd, the median is the middle element",
+                        "Number.prototype.toFixed() converts a number to a specified number of decimal places"
+                    ],
+                "python": [
+                        "The sorted() function returns a sorted list of the specified iterable object",
+                        "The addition operator (+) can concatenate two lists in Python",
+                        "The // operator returns the integer value of the quotient",
+                        "The is_even variable is true if the length of the new, merged list is even",
+                        "If the length is even, the median is the average of the two middle elements",
+                        "If the length is odd, the median is the middle element",
+                        "The round() function rounds a given number to a specified number of decimals"
+                    ]
+            },
+            "answer": ["6.0", "1.0", "21.0"]
         },
         {
             "id": 17,
@@ -2475,7 +2611,7 @@
                 "",
                 "ticTacToe([[\"X\", \"O\", \"X\"], [\"X\", \"X\", \"X\"], [\"O\", \"X\", \"O\"]]) ➞ \"X\"",
                 "ticTacToe([[\"O\", \"X\", \"O\"], [\"O\", \"O\", \"O\"], [\"X\", \"O\", \"X\"]]) ➞ \"O\"",
-                "ticTacToe([[\"X\", \"O\", \"X\"], [\"O\", \"X\", \"O\"], [\"X\", \"O\", \"X\"]]) ➞ \"Tie\"",
+                "ticTacToe([[\"X\", \"O\", \"X\"], [\"O\", \"O\", \"X\"], [\"X\", \"X\", \"O\"]]) ➞ \"Tie\"",
                 "",
                 "Test Cases:",
                 "",
@@ -2593,6 +2729,22 @@
                     "print(ticTacToe(board: [[\"O\", \"O\", \"O\"], [\"O\", \"X\", \"\"], [\"X\", \"X\", \"X\"]]));",
                     "print(ticTacToe(board: [[\"X\", \"X\", \"O\"], [\"O\", \"O\", \"\"], [\"X\", \"X\", \"O\"]]));"
                 ]
+            },
+            "explanations": {
+                "javascript": [
+                        "The for loop iterates through the rows and columns of the board",
+                        "The first if statement checks if the row is the same",
+                        "The second if statement checks if the column is the same",
+                        "The if statements outside the for loop check the diagonals",
+                        "If none of the conditions yield true, then the game is a tie"
+                    ],
+                "python": [
+                        "The for loop iterates through the rows and columns of the board",
+                        "The first if statement checks if the row is the same",
+                        "The second if statement checks if the column is the same",
+                        "The if statements outside the for loop check the diagonals",
+                        "If none of the conditions yield true, then the game is a tie"
+                    ]
             },
             "answer": ["\"X\"", "\"O\"", "\"Tie\""]
         }
