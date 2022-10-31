@@ -768,7 +768,7 @@
                         "If minutes is less than or equal to 0, the function returns 0"
                     ]
             },
-            "answer": ["300", "180", "0"]
+            "answer": ["300", "180", "-300"]
         },
         {
             "id": 6,
