@@ -461,7 +461,18 @@
                         "If the remainder is 0, the number is evenly divisible by 5"
                     ]
             },
-            "answer": ["true", "true", "false"]
+            "answer": {
+                "javascript": ["true", "true", "false"],
+                "python": ["True", "True", "False"],
+                "java": ["true", "true", "false"],
+                "c": ["1", "1", "0"],
+                "cpp": ["1", "1", "0"],
+                "csharp": ["True", "True", "False"],
+                "go": ["true", "true", "false"],
+                "ruby": ["true", "true", "false"],
+                "swift": ["true", "true", "false"],
+                "php": ["True", "True", "False"]
+            }
         },
         {
             "id": 4,
@@ -1076,7 +1087,18 @@
                         "The comparison operator (<) is used to check if the sum is less than 100"
                     ]
             },
-            "answer": ["true", "false", "true"]
+            "answer": {
+                "javascript": ["true", "false", "true"],
+                "python": ["True", "False", "True"],
+                "java": ["true", "false", "true"],
+                "c": ["1", "0", "1"],
+                "cpp": ["1", "0", "1"],
+                "csharp": ["True", "False", "True"],
+                "go": ["true", "false", "true"],
+                "ruby": ["true", "false", "true"],
+                "swift": ["true", "false", "true"],
+                "php": ["True", "False", "True"]
+            }
         },
         {
             "id": 8,
